@@ -1,0 +1,816 @@
+{
+  "id": "ev_cc1ea323d551476ea4f0b3bb2c92fcea6e72aad2357a90d085d2b01223ec62a1",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "TCP"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x1403ff0d0",
+        "references": [
+          {
+            "from": "0x14008b17c",
+            "function": "sub_14008b0a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommL5NgsBindNetTcp"
+      },
+      {
+        "address": "0x1403ff1a0",
+        "references": [
+          {
+            "from": "0x14008b63e",
+            "function": "sub_14008b560"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::OnConnectorsEnable failed! ConnectorL4NetTcpGet_\n"
+      },
+      {
+        "address": "0x1403ff230",
+        "references": [
+          {
+            "from": "0x14008b8cd",
+            "function": "sub_14008b560"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::OnConnectorsEnable NET TCP failed!\n"
+      },
+      {
+        "address": "0x1403ffd80",
+        "references": [
+          {
+            "from": "0x14008cfc4",
+            "function": "sub_14008ca50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::ConnectorL4NetTcpGet_ failed! EncryptionSslSet\n"
+      },
+      {
+        "address": "0x1403ffe10",
+        "references": [
+          {
+            "from": "0x14008cf03",
+            "function": "sub_14008ca50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::ConnectorL4NetTcpGet_ CertificateFile:%S\n"
+      },
+      {
+        "address": "0x1403ffe90",
+        "references": [
+          {
+            "from": "0x14008cf22",
+            "function": "sub_14008ca50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::ConnectorL4NetTcpGet_ PfxFile:%S\n"
+      },
+      {
+        "address": "0x1403fff10",
+        "references": [
+          {
+            "from": "0x14008cf60",
+            "function": "sub_14008ca50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::ConnectorL4NetTcpGet_ failed! EncryptionSslCertificateFileSet\n"
+      },
+      {
+        "address": "0x14043b630",
+        "references": [
+          {
+            "from": "0x1400dc8b3",
+            "function": "sub_1400dc810"
+          }
+        ],
+        "section": ".rdata",
+        "text": "D:\\spacedesk\\spacedeskServer\\trunk\\LibCommLayer4NetTcp\\L4OpenSSLContext.cpp"
+      },
+      {
+        "address": "0x14043cc30",
+        "references": [
+          {
+            "from": "0x1400df4e7",
+            "function": "sub_1400df450"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::Attach failed! m_pContext->ConnectionCreate\n"
+      },
+      {
+        "address": "0x14043ccc0",
+        "references": [
+          {
+            "from": "0x1400df522",
+            "function": "sub_1400df450"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::Attach failed! SSL_accept Error:%d\n"
+      },
+      {
+        "address": "0x14043cd30",
+        "references": [
+          {
+            "from": "0x1400df628",
+            "function": "sub_1400df450"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::Attach failed! L4SocketTcpCommBase::Attach\n"
+      },
+      {
+        "address": "0x14043cdb0",
+        "references": [
+          {
+            "from": "0x1400df714",
+            "function": "sub_1400df6f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::ReceiveSync failed! SSL_read error %d\n"
+      },
+      {
+        "address": "0x14043ce30",
+        "references": [],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::ReceiveSync failed! EXCEPTION\n"
+      },
+      {
+        "address": "0x14043cea0",
+        "references": [
+          {
+            "from": "0x1400df7b7",
+            "function": "sub_1400df750"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::ReceiveSync failed! ReceiveSync\n"
+      },
+      {
+        "address": "0x14043cf10",
+        "references": [
+          {
+            "from": "0x1400df874",
+            "function": "sub_1400df810"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::SendSync failed! SSL_write Buffer[%d] count byte:%d error:%d errno:%d\n"
+      },
+      {
+        "address": "0x14043cfd0",
+        "references": [],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::SendSync failed! EXCEPTION\n"
+      },
+      {
+        "address": "0x14043d030",
+        "references": [
+          {
+            "from": "0x1400df8d6",
+            "function": "sub_1400df8c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::SendAsync failed! SendSync\n"
+      },
+      {
+        "address": "0x14043d090",
+        "references": [
+          {
+            "from": "0x1400df3f9",
+            "function": "sub_1400df3c0"
+          },
+          {
+            "from": "0x1400df553",
+            "function": "sub_1400df450"
+          },
+          {
+            "from": "0x1400df689",
+            "function": "sub_1400df660"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::ConnectionClose_ failed! SSL_shutdown Error:%d\n"
+      },
+      {
+        "address": "0x14043d120",
+        "references": [
+          {
+            "from": "0x14008adf9",
+            "function": "sub_14008ada0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::Init failed! OPENSSL_init_crypto\n"
+      },
+      {
+        "address": "0x14043d190",
+        "references": [
+          {
+            "from": "0x14008ae1a",
+            "function": "sub_14008ada0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommSSL::Init failed! OPENSSL_init_ssl\n"
+      },
+      {
+        "address": "0x14043d290",
+        "references": [
+          {
+            "from": "0x1400df9e7",
+            "function": "sub_1400df930"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommRegular::ReceiveSync WSARecv failed! WSAGetLastError: %d CountByteReceivedPartial:%d\n"
+      },
+      {
+        "address": "0x14043d360",
+        "references": [
+          {
+            "from": "0x1400dfaa4",
+            "function": "sub_1400dfa00"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommRegular::ReceiveSync WSARecv failed! SOCKET_ERROR WSAGetLastError: %d\n"
+      },
+      {
+        "address": "0x14043d410",
+        "references": [
+          {
+            "from": "0x1400dfac3",
+            "function": "sub_1400dfa00"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommRegular::ReceiveSync failed! Connection closed terminating...\n"
+      },
+      {
+        "address": "0x14043d4b0",
+        "references": [
+          {
+            "from": "0x1400dfb5d",
+            "function": "sub_1400dfb20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommRegular::SendSync WSASend failed! %d\n"
+      },
+      {
+        "address": "0x14043d520",
+        "references": [
+          {
+            "from": "0x1400dfbff",
+            "function": "sub_1400dfba0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommRegular::SendAsync WSASend failed! %d\n"
+      },
+      {
+        "address": "0x14043dd80",
+        "references": [
+          {
+            "from": "0x1400dcbb7",
+            "function": "sub_1400dcb20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Listen WSASocket failed! %d\n"
+      },
+      {
+        "address": "0x14043ddf0",
+        "references": [
+          {
+            "from": "0x1400dcc19",
+            "function": "sub_1400dcb20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Listen bind failed! %d\n"
+      },
+      {
+        "address": "0x14043de50",
+        "references": [
+          {
+            "from": "0x1400dcc3f",
+            "function": "sub_1400dcb20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Listen listen failed! %d\n"
+      },
+      {
+        "address": "0x14043deb0",
+        "references": [
+          {
+            "from": "0x1400decfc",
+            "function": "sub_1400deb30"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Accept accept failed! %d\n"
+      },
+      {
+        "address": "0x14043df30",
+        "references": [
+          {
+            "from": "0x1400dff99",
+            "function": "sub_1400dff70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Close failed! CancelIoEx Error:%d\n"
+      },
+      {
+        "address": "0x14043dfa0",
+        "references": [
+          {
+            "from": "0x1400dffc7",
+            "function": "sub_1400dff70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Close() shutdown failed! %d\n"
+      },
+      {
+        "address": "0x14043e010",
+        "references": [
+          {
+            "from": "0x1400dfff0",
+            "function": "sub_1400dff70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpListener::Close() closesocket failed! %d\n"
+      },
+      {
+        "address": "0x14043e0b0",
+        "references": [
+          {
+            "from": "0x1400e0169",
+            "function": "sub_1400e00c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::~L4SocketTcpCommBase closesocket failed! %d\n"
+      },
+      {
+        "address": "0x14043e140",
+        "references": [
+          {
+            "from": "0x1400df583",
+            "function": "sub_1400df450"
+          },
+          {
+            "from": "0x1400e01c2",
+            "function": "sub_1400e01a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::Attach failed! INVALID_SOCKET != m_Socket\n"
+      },
+      {
+        "address": "0x14043e1c0",
+        "references": [
+          {
+            "from": "0x1400df5d1",
+            "function": "sub_1400df450"
+          },
+          {
+            "from": "0x1400e0220",
+            "function": "sub_1400e01a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::Attach getsockopt SO_SNDBUF failed! %d\n"
+      },
+      {
+        "address": "0x14043e240",
+        "references": [
+          {
+            "from": "0x1400df60b",
+            "function": "sub_1400df450"
+          },
+          {
+            "from": "0x1400e0283",
+            "function": "sub_1400e01a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::Attach setsockopt TCP_NODELAY failed! %d\n"
+      },
+      {
+        "address": "0x14043e2c0",
+        "references": [
+          {
+            "from": "0x1400df6a4",
+            "function": "sub_1400df660"
+          },
+          {
+            "from": "0x1400e02be",
+            "function": "sub_1400e02b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::Detach failed! INVALID_SOCKET == m_Socket\n"
+      },
+      {
+        "address": "0x14043e340",
+        "references": [
+          {
+            "from": "0x1400df6d0",
+            "function": "sub_1400df660"
+          },
+          {
+            "from": "0x1400e02e9",
+            "function": "sub_1400e02b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::Detach shutdown failed! %d\n"
+      },
+      {
+        "address": "0x14043e3b0",
+        "references": [
+          {
+            "from": "0x1400e035f",
+            "function": "sub_1400e0310"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::SendBufferSizeSet setsockopt SO_SNDBUF failed! %d\n"
+      },
+      {
+        "address": "0x14043e440",
+        "references": [
+          {
+            "from": "0x1400e03e3",
+            "function": "sub_1400e03a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::SendTimeoutSet setsockopt SO_SNDTIMEO failed! %d\n"
+      },
+      {
+        "address": "0x14043e4d0",
+        "references": [
+          {
+            "from": "0x1400e04d0",
+            "function": "sub_1400e0420"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveSynchronous PayloadLength %d \n"
+      },
+      {
+        "address": "0x14043e550",
+        "references": [
+          {
+            "from": "0x1400e0507",
+            "function": "sub_1400e0420"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveSynchronous Payload Masked %x %x %x \n"
+      },
+      {
+        "address": "0x14043e5e0",
+        "references": [
+          {
+            "from": "0x1400e0567",
+            "function": "sub_1400e0420"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveSynchronous Payload Unmasked %x %x %x \n"
+      },
+      {
+        "address": "0x14043e670",
+        "references": [
+          {
+            "from": "0x1400e05e4",
+            "function": "sub_1400e0420"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveSynchronous SendSync failed!\n"
+      },
+      {
+        "address": "0x14043e6f0",
+        "references": [
+          {
+            "from": "0x1400e0692",
+            "function": "sub_1400e0640"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::IsOperationComplete WSAGetOverlappedResult failed! WSAGetLastError:%d\n"
+      },
+      {
+        "address": "0x14043e7b0",
+        "references": [
+          {
+            "from": "0x1400e06c0",
+            "function": "sub_1400e0640"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::IsOperationComplete WSAGetOverlappedResult failed! 0 == CountByteSent (ignoring might be first time...)\n"
+      },
+      {
+        "address": "0x14043e8b0",
+        "references": [
+          {
+            "from": "0x1400e06d6",
+            "function": "sub_1400e0640"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::IsOperationComplete CountByteSent %d\n"
+      },
+      {
+        "address": "0x14043e930",
+        "references": [
+          {
+            "from": "0x1400e074e",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification failed! Invalid parameter\n"
+      },
+      {
+        "address": "0x14043e9c0",
+        "references": [
+          {
+            "from": "0x1400e07b1",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification ReceiveSynchronous (1) failed!\n"
+      },
+      {
+        "address": "0x14043ea60",
+        "references": [
+          {
+            "from": "0x1400e082f",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification HTTP recognized\n"
+      },
+      {
+        "address": "0x14043eae0",
+        "references": [
+          {
+            "from": "0x1400e086f",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification ReceiveSync failed!\n"
+      },
+      {
+        "address": "0x14043eb60",
+        "references": [
+          {
+            "from": "0x1400e09f2",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification HTTP received:\n%S\n"
+      },
+      {
+        "address": "0x14043ebe0",
+        "references": [
+          {
+            "from": "0x1400e0a21",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification L4ProtocolWebSocket::WebSocketPacketHandshakeResponseCreate failed!\n"
+      },
+      {
+        "address": "0x14043ecc0",
+        "references": [
+          {
+            "from": "0x1400e0a65",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification SendSync failed!\n"
+      },
+      {
+        "address": "0x14043ed40",
+        "references": [
+          {
+            "from": "0x1400e0ac9",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification ReceiveSynchronous (2) failed!\n"
+      },
+      {
+        "address": "0x14043ede0",
+        "references": [
+          {
+            "from": "0x1400e0c95",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification failed! pIdentificationData->IsHeaderValid\n"
+      },
+      {
+        "address": "0x14043ee90",
+        "references": [
+          {
+            "from": "0x1400e0cc1",
+            "function": "sub_1400e0710"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::ReceiveIdentification ReceiveSynchronous (4) failed!\n"
+      },
+      {
+        "address": "0x14043ef30",
+        "references": [
+          {
+            "from": "0x1400e0d40",
+            "function": "sub_1400e0cf0"
+          },
+          {
+            "from": "0x1400e0dba",
+            "function": "sub_1400e0cf0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::QosFlowAttach m_QosFlow.Create failed!\n"
+      },
+      {
+        "address": "0x14043efb0",
+        "references": [
+          {
+            "from": "0x1400e0e88",
+            "function": "sub_1400e0e60"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::SendAsynchronous\n"
+      },
+      {
+        "address": "0x14043f000",
+        "references": [
+          {
+            "from": "0x1400e0f92",
+            "function": "sub_1400e0e60"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::SendAsynchronous SendAsync failed!\n"
+      },
+      {
+        "address": "0x14043f080",
+        "references": [
+          {
+            "from": "0x1400e0fed",
+            "function": "sub_1400e0fd0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::SendSynchronous\n"
+      },
+      {
+        "address": "0x14043f0d0",
+        "references": [
+          {
+            "from": "0x1400e10e4",
+            "function": "sub_1400e0fd0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::SendSynchronous SendSync failed!\n"
+      },
+      {
+        "address": "0x14043f140",
+        "references": [
+          {
+            "from": "0x1400e111e",
+            "function": "sub_1400e1110"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::IoCancel failed! INVALID_SOCKET == m_Socket\n"
+      },
+      {
+        "address": "0x14043f1d0",
+        "references": [
+          {
+            "from": "0x1400e1145",
+            "function": "sub_1400e1110"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4SocketTcpCommBase::IoCancel failed! CancelIoEx Error:%d\n"
+      },
+      {
+        "address": "0x1404405c0",
+        "references": [
+          {
+            "from": "0x1400e2964",
+            "function": "sub_1400e2890"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4UiSocket::Connect failed! setsockopt TCP_NODELAY %d\n"
+      },
+      {
+        "address": "0x140480940",
+        "references": [],
+        "section": ".rdata",
+        "text": "GetCPInfo"
+      },
+      {
+        "address": "0x140480bfc",
+        "references": [],
+        "section": ".rdata",
+        "text": "GetConsoleOutputCP"
+      },
+      {
+        "address": "0x14048b7f8",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVL4SocketTcpCommBase@@"
+      },
+      {
+        "address": "0x14048b828",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVL4SocketTcpCommSSL@@"
+      },
+      {
+        "address": "0x14048b858",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVL4SocketTcpCommRegular@@"
+      },
+      {
+        "address": "0x14048b8b8",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVL4SocketTcpListener@@"
+      }
+    ],
+    "total": 71
+  },
+  "summary": "71 strings match \"TCP\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 71,
+    "total": 71
+  },
+  "locations": [],
+  "links": []
+}

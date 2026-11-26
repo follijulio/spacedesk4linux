@@ -1,0 +1,583 @@
+{
+  "id": "ev_37f53adcf31e359f812caa14f23ef2c93b10963b86afb7e8f3cd1033bbdf622a",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 50,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "port"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x14032a9b0",
+        "references": [
+          {
+            "from": "0x140481218",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "DSO support routines"
+      },
+      {
+        "address": "0x14032ad60",
+        "references": [
+          {
+            "from": "0x140481588",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported"
+      },
+      {
+        "address": "0x14033e8b8",
+        "references": [
+          {
+            "from": "0x14032fd60",
+            "function": null
+          },
+          {
+            "from": "0x14032fd68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "id-it-unsupportedOIDs"
+      },
+      {
+        "address": "0x1403422c0",
+        "references": [
+          {
+            "from": "0x140335670",
+            "function": null
+          },
+          {
+            "from": "0x140335678",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "supportedApplicationContext"
+      },
+      {
+        "address": "0x1403423f0",
+        "references": [
+          {
+            "from": "0x1403358f0",
+            "function": null
+          },
+          {
+            "from": "0x1403358f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "supportedAlgorithms"
+      },
+      {
+        "address": "0x1403459a8",
+        "references": [
+          {
+            "from": "0x14010db8e",
+            "function": "sub_14010da20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%s algorithm \"%s\" unsupported\n"
+      },
+      {
+        "address": "0x140349c00",
+        "references": [
+          {
+            "from": "0x14012c92c",
+            "function": "sub_14012c7dd"
+          }
+        ],
+        "section": ".rdata",
+        "text": "The max supported SSL/TLS version needs the MD5-SHA1 digest but it is not available in the loaded providers. Use (D)TLSv1.2 or above, or load different providers"
+      },
+      {
+        "address": "0x140349ca8",
+        "references": [
+          {
+            "from": "0x14012ca01",
+            "function": "sub_14012c847"
+          },
+          {
+            "from": "0x14019443b",
+            "function": "sub_140194190"
+          }
+        ],
+        "section": ".rdata",
+        "text": "No ciphers enabled for max supported SSL/TLS version"
+      },
+      {
+        "address": "0x140349ff8",
+        "references": [
+          {
+            "from": "0x14012d897",
+            "function": "sub_14012d740"
+          }
+        ],
+        "section": ".rdata",
+        "text": "exporter"
+      },
+      {
+        "address": "0x14034a008",
+        "references": [],
+        "section": ".rdata",
+        "text": "exporter"
+      },
+      {
+        "address": "0x14034a0f8",
+        "references": [
+          {
+            "from": "0x14012d30b",
+            "function": "sub_14012ce40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "EARLY_EXPORTER_SECRET"
+      },
+      {
+        "address": "0x14034a180",
+        "references": [
+          {
+            "from": "0x14012d410",
+            "function": "sub_14012ce40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "EXPORTER_SECRET"
+      },
+      {
+        "address": "0x1403521e8",
+        "references": [
+          {
+            "from": "0x14016e1af",
+            "function": "sub_14016e170"
+          }
+        ],
+        "section": ".rdata",
+        "text": "evp_keymgmt_util_try_import"
+      },
+      {
+        "address": "0x1403549d0",
+        "references": [],
+        "section": ".rdata",
+        "text": "[action:%d, state:%d] unsupported OSSL_PARAM data type %d"
+      },
+      {
+        "address": "0x140355e78",
+        "references": [
+          {
+            "from": "0x140181da9",
+            "function": "sub_140181c86"
+          }
+        ],
+        "section": ".rdata",
+        "text": "No supported data to decode. %s%s%s%s%s%s"
+      },
+      {
+        "address": "0x1403597c8",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported extension feature"
+      },
+      {
+        "address": "0x140359860",
+        "references": [],
+        "section": ".rdata",
+        "text": "name constraints minimum and maximum not supported"
+      },
+      {
+        "address": "0x1403598c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported name constraint type"
+      },
+      {
+        "address": "0x1403598e8",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported or invalid name constraint syntax"
+      },
+      {
+        "address": "0x140359918",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported or invalid name syntax"
+      },
+      {
+        "address": "0x14035c1d8",
+        "references": [
+          {
+            "from": "0x14035a928",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "legacy sigalg disallowed or unsupported"
+      },
+      {
+        "address": "0x14035c398",
+        "references": [
+          {
+            "from": "0x14035aa38",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "missing supported groups extension"
+      },
+      {
+        "address": "0x14035cd98",
+        "references": [
+          {
+            "from": "0x14035afd8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "sslv3 alert unsupported certificate"
+      },
+      {
+        "address": "0x14035d030",
+        "references": [
+          {
+            "from": "0x14035b138",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "tlsv1 alert export restriction"
+      },
+      {
+        "address": "0x14035d1e0",
+        "references": [
+          {
+            "from": "0x14035b208",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "tlsv1 unsupported extension"
+      },
+      {
+        "address": "0x14035d200",
+        "references": [
+          {
+            "from": "0x14035b218",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls illegal exporter label"
+      },
+      {
+        "address": "0x14035d510",
+        "references": [
+          {
+            "from": "0x14035b3e8",
+            "function": null
+          },
+          {
+            "from": "0x14038c9d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported compression algorithm"
+      },
+      {
+        "address": "0x14035d538",
+        "references": [
+          {
+            "from": "0x14035b3f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported elliptic curve"
+      },
+      {
+        "address": "0x14035d558",
+        "references": [
+          {
+            "from": "0x14035b408",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported protocol"
+      },
+      {
+        "address": "0x14035d570",
+        "references": [
+          {
+            "from": "0x14035b418",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported ssl version"
+      },
+      {
+        "address": "0x14035d588",
+        "references": [
+          {
+            "from": "0x14035b428",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported status type"
+      },
+      {
+        "address": "0x14035d7a0",
+        "references": [
+          {
+            "from": "0x14019f324",
+            "function": "sub_14019f2b0"
+          },
+          {
+            "from": "0x14019f4ca",
+            "function": "sub_14019f2b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls1_export_keying_material"
+      },
+      {
+        "address": "0x14035d9a8",
+        "references": [
+          {
+            "from": "0x1401a0e2c",
+            "function": "sub_1401a0db0"
+          },
+          {
+            "from": "0x1401a0f95",
+            "function": "sub_1401a0f30"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Negative big numbers are unsupported for OSSL_PARAM"
+      },
+      {
+        "address": "0x1403631f8",
+        "references": [
+          {
+            "from": "0x140485728",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software engine support"
+      },
+      {
+        "address": "0x140363298",
+        "references": [
+          {
+            "from": "0x140485778",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Dynamic engine loading support"
+      },
+      {
+        "address": "0x140363848",
+        "references": [
+          {
+            "from": "0x1403d3758",
+            "function": null
+          },
+          {
+            "from": "0x1404858d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "function not supported"
+      },
+      {
+        "address": "0x140363920",
+        "references": [
+          {
+            "from": "0x140485948",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "pubkey export error"
+      },
+      {
+        "address": "0x140363938",
+        "references": [
+          {
+            "from": "0x140485958",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "pubkey export length error"
+      },
+      {
+        "address": "0x140363958",
+        "references": [
+          {
+            "from": "0x140485978",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported algorithm nid"
+      },
+      {
+        "address": "0x140363978",
+        "references": [
+          {
+            "from": "0x140485988",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported padding"
+      },
+      {
+        "address": "0x140363990",
+        "references": [
+          {
+            "from": "0x140485998",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported public key algorithm"
+      },
+      {
+        "address": "0x140365d58",
+        "references": [
+          {
+            "from": "0x1401c69ba",
+            "function": "sub_1401c6970"
+          },
+          {
+            "from": "0x1401c6c8a",
+            "function": "sub_1401c6c40"
+          },
+          {
+            "from": "0x1401c6d6a",
+            "function": "sub_1401c6d20"
+          },
+          {
+            "from": "0x1401c743b",
+            "function": "sub_1401c73b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ecx_generic_import_from"
+      },
+      {
+        "address": "0x140366b70",
+        "references": [
+          {
+            "from": "0x1401cde57",
+            "function": "sub_1401cde10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "dh_pkey_import_from_type"
+      },
+      {
+        "address": "0x1403672b0",
+        "references": [
+          {
+            "from": "0x1401cedaf",
+            "function": "sub_1401ced70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "dsa_pkey_import_from"
+      },
+      {
+        "address": "0x140367630",
+        "references": [
+          {
+            "from": "0x1401cfd83",
+            "function": "sub_1401cfd40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ec_pkey_import_from"
+      },
+      {
+        "address": "0x140367cd0",
+        "references": [
+          {
+            "from": "0x1401d1837",
+            "function": "sub_1401d17d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "rsa_int_import_from"
+      },
+      {
+        "address": "0x14036f6d0",
+        "references": [],
+        "section": ".rdata",
+        "text": "<unsupported>"
+      },
+      {
+        "address": "0x14036f750",
+        "references": [],
+        "section": ".rdata",
+        "text": "othername:<unsupported>"
+      },
+      {
+        "address": "0x14036f7e8",
+        "references": [],
+        "section": ".rdata",
+        "text": "X400Name:<unsupported>"
+      },
+      {
+        "address": "0x14036f800",
+        "references": [],
+        "section": ".rdata",
+        "text": "EdiPartyName:<unsupported>"
+      }
+    ],
+    "total": 199
+  },
+  "summary": "199 strings match \"port\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 199,
+    "next_offset": 50
+  },
+  "locations": [],
+  "links": []
+}

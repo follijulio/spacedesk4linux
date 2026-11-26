@@ -1,0 +1,2373 @@
+{
+  "id": "ev_0a107342b1e7a4b8a00c6fdbe9b445e73c780306a10b3d37c070eb0a8081265a",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "Port"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x14032a9b0",
+        "references": [
+          {
+            "from": "0x140481218",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "DSO support routines"
+      },
+      {
+        "address": "0x14032ad60",
+        "references": [
+          {
+            "from": "0x140481588",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported"
+      },
+      {
+        "address": "0x14033e8b8",
+        "references": [
+          {
+            "from": "0x14032fd60",
+            "function": null
+          },
+          {
+            "from": "0x14032fd68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "id-it-unsupportedOIDs"
+      },
+      {
+        "address": "0x1403422c0",
+        "references": [
+          {
+            "from": "0x140335670",
+            "function": null
+          },
+          {
+            "from": "0x140335678",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "supportedApplicationContext"
+      },
+      {
+        "address": "0x1403423f0",
+        "references": [
+          {
+            "from": "0x1403358f0",
+            "function": null
+          },
+          {
+            "from": "0x1403358f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "supportedAlgorithms"
+      },
+      {
+        "address": "0x1403459a8",
+        "references": [
+          {
+            "from": "0x14010db8e",
+            "function": "sub_14010da20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%s algorithm \"%s\" unsupported\n"
+      },
+      {
+        "address": "0x140349c00",
+        "references": [
+          {
+            "from": "0x14012c92c",
+            "function": "sub_14012c7dd"
+          }
+        ],
+        "section": ".rdata",
+        "text": "The max supported SSL/TLS version needs the MD5-SHA1 digest but it is not available in the loaded providers. Use (D)TLSv1.2 or above, or load different providers"
+      },
+      {
+        "address": "0x140349ca8",
+        "references": [
+          {
+            "from": "0x14012ca01",
+            "function": "sub_14012c847"
+          },
+          {
+            "from": "0x14019443b",
+            "function": "sub_140194190"
+          }
+        ],
+        "section": ".rdata",
+        "text": "No ciphers enabled for max supported SSL/TLS version"
+      },
+      {
+        "address": "0x140349ff8",
+        "references": [
+          {
+            "from": "0x14012d897",
+            "function": "sub_14012d740"
+          }
+        ],
+        "section": ".rdata",
+        "text": "exporter"
+      },
+      {
+        "address": "0x14034a008",
+        "references": [],
+        "section": ".rdata",
+        "text": "exporter"
+      },
+      {
+        "address": "0x14034a0f8",
+        "references": [
+          {
+            "from": "0x14012d30b",
+            "function": "sub_14012ce40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "EARLY_EXPORTER_SECRET"
+      },
+      {
+        "address": "0x14034a180",
+        "references": [
+          {
+            "from": "0x14012d410",
+            "function": "sub_14012ce40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "EXPORTER_SECRET"
+      },
+      {
+        "address": "0x1403521e8",
+        "references": [
+          {
+            "from": "0x14016e1af",
+            "function": "sub_14016e170"
+          }
+        ],
+        "section": ".rdata",
+        "text": "evp_keymgmt_util_try_import"
+      },
+      {
+        "address": "0x1403549d0",
+        "references": [],
+        "section": ".rdata",
+        "text": "[action:%d, state:%d] unsupported OSSL_PARAM data type %d"
+      },
+      {
+        "address": "0x140355e78",
+        "references": [
+          {
+            "from": "0x140181da9",
+            "function": "sub_140181c86"
+          }
+        ],
+        "section": ".rdata",
+        "text": "No supported data to decode. %s%s%s%s%s%s"
+      },
+      {
+        "address": "0x1403597c8",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported extension feature"
+      },
+      {
+        "address": "0x140359860",
+        "references": [],
+        "section": ".rdata",
+        "text": "name constraints minimum and maximum not supported"
+      },
+      {
+        "address": "0x1403598c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported name constraint type"
+      },
+      {
+        "address": "0x1403598e8",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported or invalid name constraint syntax"
+      },
+      {
+        "address": "0x140359918",
+        "references": [],
+        "section": ".rdata",
+        "text": "unsupported or invalid name syntax"
+      },
+      {
+        "address": "0x14035c1d8",
+        "references": [
+          {
+            "from": "0x14035a928",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "legacy sigalg disallowed or unsupported"
+      },
+      {
+        "address": "0x14035c398",
+        "references": [
+          {
+            "from": "0x14035aa38",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "missing supported groups extension"
+      },
+      {
+        "address": "0x14035cd98",
+        "references": [
+          {
+            "from": "0x14035afd8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "sslv3 alert unsupported certificate"
+      },
+      {
+        "address": "0x14035d030",
+        "references": [
+          {
+            "from": "0x14035b138",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "tlsv1 alert export restriction"
+      },
+      {
+        "address": "0x14035d1e0",
+        "references": [
+          {
+            "from": "0x14035b208",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "tlsv1 unsupported extension"
+      },
+      {
+        "address": "0x14035d200",
+        "references": [
+          {
+            "from": "0x14035b218",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls illegal exporter label"
+      },
+      {
+        "address": "0x14035d510",
+        "references": [
+          {
+            "from": "0x14035b3e8",
+            "function": null
+          },
+          {
+            "from": "0x14038c9d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported compression algorithm"
+      },
+      {
+        "address": "0x14035d538",
+        "references": [
+          {
+            "from": "0x14035b3f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported elliptic curve"
+      },
+      {
+        "address": "0x14035d558",
+        "references": [
+          {
+            "from": "0x14035b408",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported protocol"
+      },
+      {
+        "address": "0x14035d570",
+        "references": [
+          {
+            "from": "0x14035b418",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported ssl version"
+      },
+      {
+        "address": "0x14035d588",
+        "references": [
+          {
+            "from": "0x14035b428",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported status type"
+      },
+      {
+        "address": "0x14035d7a0",
+        "references": [
+          {
+            "from": "0x14019f324",
+            "function": "sub_14019f2b0"
+          },
+          {
+            "from": "0x14019f4ca",
+            "function": "sub_14019f2b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls1_export_keying_material"
+      },
+      {
+        "address": "0x14035d9a8",
+        "references": [
+          {
+            "from": "0x1401a0e2c",
+            "function": "sub_1401a0db0"
+          },
+          {
+            "from": "0x1401a0f95",
+            "function": "sub_1401a0f30"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Negative big numbers are unsupported for OSSL_PARAM"
+      },
+      {
+        "address": "0x1403631f8",
+        "references": [
+          {
+            "from": "0x140485728",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software engine support"
+      },
+      {
+        "address": "0x140363298",
+        "references": [
+          {
+            "from": "0x140485778",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Dynamic engine loading support"
+      },
+      {
+        "address": "0x140363848",
+        "references": [
+          {
+            "from": "0x1403d3758",
+            "function": null
+          },
+          {
+            "from": "0x1404858d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "function not supported"
+      },
+      {
+        "address": "0x140363920",
+        "references": [
+          {
+            "from": "0x140485948",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "pubkey export error"
+      },
+      {
+        "address": "0x140363938",
+        "references": [
+          {
+            "from": "0x140485958",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "pubkey export length error"
+      },
+      {
+        "address": "0x140363958",
+        "references": [
+          {
+            "from": "0x140485978",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported algorithm nid"
+      },
+      {
+        "address": "0x140363978",
+        "references": [
+          {
+            "from": "0x140485988",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported padding"
+      },
+      {
+        "address": "0x140363990",
+        "references": [
+          {
+            "from": "0x140485998",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported public key algorithm"
+      },
+      {
+        "address": "0x140365d58",
+        "references": [
+          {
+            "from": "0x1401c69ba",
+            "function": "sub_1401c6970"
+          },
+          {
+            "from": "0x1401c6c8a",
+            "function": "sub_1401c6c40"
+          },
+          {
+            "from": "0x1401c6d6a",
+            "function": "sub_1401c6d20"
+          },
+          {
+            "from": "0x1401c743b",
+            "function": "sub_1401c73b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ecx_generic_import_from"
+      },
+      {
+        "address": "0x140366b70",
+        "references": [
+          {
+            "from": "0x1401cde57",
+            "function": "sub_1401cde10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "dh_pkey_import_from_type"
+      },
+      {
+        "address": "0x1403672b0",
+        "references": [
+          {
+            "from": "0x1401cedaf",
+            "function": "sub_1401ced70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "dsa_pkey_import_from"
+      },
+      {
+        "address": "0x140367630",
+        "references": [
+          {
+            "from": "0x1401cfd83",
+            "function": "sub_1401cfd40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ec_pkey_import_from"
+      },
+      {
+        "address": "0x140367cd0",
+        "references": [
+          {
+            "from": "0x1401d1837",
+            "function": "sub_1401d17d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "rsa_int_import_from"
+      },
+      {
+        "address": "0x14036f6d0",
+        "references": [],
+        "section": ".rdata",
+        "text": "<unsupported>"
+      },
+      {
+        "address": "0x14036f750",
+        "references": [],
+        "section": ".rdata",
+        "text": "othername:<unsupported>"
+      },
+      {
+        "address": "0x14036f7e8",
+        "references": [],
+        "section": ".rdata",
+        "text": "X400Name:<unsupported>"
+      },
+      {
+        "address": "0x14036f800",
+        "references": [],
+        "section": ".rdata",
+        "text": "EdiPartyName:<unsupported>"
+      },
+      {
+        "address": "0x140370768",
+        "references": [
+          {
+            "from": "0x1401eb5c7",
+            "function": "sub_1401eb550"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%*sVersion: <unsupported>"
+      },
+      {
+        "address": "0x140372588",
+        "references": [
+          {
+            "from": "0x1401f5471",
+            "function": "sub_1401f5435"
+          },
+          {
+            "from": "0x1401f54b7",
+            "function": "sub_1401f5350"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls_parse_ctos_supported_groups"
+      },
+      {
+        "address": "0x1403726b0",
+        "references": [
+          {
+            "from": "0x1401f2653",
+            "function": "sub_1401f2600"
+          },
+          {
+            "from": "0x1401f2787",
+            "function": "sub_1401f2600"
+          },
+          {
+            "from": "0x1401f27bd",
+            "function": "sub_1401f2600"
+          },
+          {
+            "from": "0x1401f27f3",
+            "function": "sub_1401f2600"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls_construct_stoc_supported_groups"
+      },
+      {
+        "address": "0x1403727b8",
+        "references": [
+          {
+            "from": "0x1401f28f7",
+            "function": "sub_1401f2850"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls_construct_stoc_supported_versions"
+      },
+      {
+        "address": "0x140372948",
+        "references": [
+          {
+            "from": "0x1401f78e8",
+            "function": "sub_1401f7890"
+          },
+          {
+            "from": "0x1401f7a8c",
+            "function": "sub_1401f79c1"
+          },
+          {
+            "from": "0x1401f7ae3",
+            "function": "sub_1401f7ade"
+          },
+          {
+            "from": "0x1401f7b1b",
+            "function": "sub_1401f79c1"
+          },
+          {
+            "from": "0x1401f7b68",
+            "function": "sub_1401f7b63"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls_construct_ctos_supported_groups"
+      },
+      {
+        "address": "0x140372970",
+        "references": [
+          {
+            "from": "0x1401f7aa4",
+            "function": "sub_1401f79c1"
+          },
+          {
+            "from": "0x1401f7b3c",
+            "function": "sub_1401f79c1"
+          }
+        ],
+        "section": ".rdata",
+        "text": "No groups enabled for max supported SSL/TLS version"
+      },
+      {
+        "address": "0x140372ab0",
+        "references": [
+          {
+            "from": "0x1401f7bdb",
+            "function": "sub_1401f7ba0"
+          },
+          {
+            "from": "0x1401f7ccf",
+            "function": "sub_1401f7ba0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls_construct_ctos_supported_versions"
+      },
+      {
+        "address": "0x140372d08",
+        "references": [
+          {
+            "from": "0x1401f97f2",
+            "function": "sub_1401f97a0"
+          },
+          {
+            "from": "0x1401f9845",
+            "function": "sub_1401f97a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "tls_parse_stoc_supported_versions"
+      },
+      {
+        "address": "0x140383900",
+        "references": [
+          {
+            "from": "0x140383668",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "param unsigned integer negative value unsupported"
+      },
+      {
+        "address": "0x140383938",
+        "references": [
+          {
+            "from": "0x140383678",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "param unsupported floating point format"
+      },
+      {
+        "address": "0x1403842d0",
+        "references": [
+          {
+            "from": "0x140383b58",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "digest and key type not supported"
+      },
+      {
+        "address": "0x1403849a0",
+        "references": [
+          {
+            "from": "0x140383ff8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "streaming not supported"
+      },
+      {
+        "address": "0x140384b48",
+        "references": [
+          {
+            "from": "0x140384128",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported any defined by type"
+      },
+      {
+        "address": "0x140384b68",
+        "references": [
+          {
+            "from": "0x140384138",
+            "function": null
+          },
+          {
+            "from": "0x140387868",
+            "function": null
+          },
+          {
+            "from": "0x1403884e8",
+            "function": null
+          },
+          {
+            "from": "0x14038d2e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported cipher"
+      },
+      {
+        "address": "0x140384b80",
+        "references": [
+          {
+            "from": "0x140384148",
+            "function": null
+          },
+          {
+            "from": "0x140388518",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported public key type"
+      },
+      {
+        "address": "0x140384ba0",
+        "references": [
+          {
+            "from": "0x140384158",
+            "function": null
+          },
+          {
+            "from": "0x140389868",
+            "function": null
+          },
+          {
+            "from": "0x14038ca68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported type"
+      },
+      {
+        "address": "0x140385458",
+        "references": [
+          {
+            "from": "0x140384f98",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "curve does not support ecdh"
+      },
+      {
+        "address": "0x140385478",
+        "references": [
+          {
+            "from": "0x140384fa8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "curve does not support ecdsa"
+      },
+      {
+        "address": "0x140385498",
+        "references": [
+          {
+            "from": "0x140384fb8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "curve does not support signing"
+      },
+      {
+        "address": "0x1403854f0",
+        "references": [
+          {
+            "from": "0x140384ff8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "explicit params not supported"
+      },
+      {
+        "address": "0x140385540",
+        "references": [
+          {
+            "from": "0x140385028",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "gf2m not supported"
+      },
+      {
+        "address": "0x1403858b0",
+        "references": [
+          {
+            "from": "0x1403852c8",
+            "function": null
+          },
+          {
+            "from": "0x1403d3998",
+            "function": null
+          },
+          {
+            "from": "0x1403dae60",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "operation not supported"
+      },
+      {
+        "address": "0x140385a20",
+        "references": [
+          {
+            "from": "0x1403853c8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported field"
+      },
+      {
+        "address": "0x140385ec0",
+        "references": [
+          {
+            "from": "0x140385bc8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "no port defined"
+      },
+      {
+        "address": "0x140385fc8",
+        "references": [
+          {
+            "from": "0x140385c98",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported ip family"
+      },
+      {
+        "address": "0x140385fe0",
+        "references": [
+          {
+            "from": "0x140385ca8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported method"
+      },
+      {
+        "address": "0x140385ff8",
+        "references": [
+          {
+            "from": "0x140385cb8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported protocol family"
+      },
+      {
+        "address": "0x1403860b0",
+        "references": [
+          {
+            "from": "0x140386068",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "zlib not supported"
+      },
+      {
+        "address": "0x1403867e0",
+        "references": [
+          {
+            "from": "0x140386218",
+            "function": null
+          },
+          {
+            "from": "0x14038ee68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "illegal or unsupported padding mode"
+      },
+      {
+        "address": "0x140386ae8",
+        "references": [
+          {
+            "from": "0x140386468",
+            "function": null
+          },
+          {
+            "from": "0x1403876f8",
+            "function": null
+          },
+          {
+            "from": "0x14038f228",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "operation not supported for this keytype"
+      },
+      {
+        "address": "0x140386be0",
+        "references": [
+          {
+            "from": "0x1403864f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "rsa operations not supported"
+      },
+      {
+        "address": "0x140386ca0",
+        "references": [
+          {
+            "from": "0x140386588",
+            "function": null
+          },
+          {
+            "from": "0x14038ca08",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported encryption type"
+      },
+      {
+        "address": "0x140386cc0",
+        "references": [
+          {
+            "from": "0x140386598",
+            "function": null
+          },
+          {
+            "from": "0x14038ca38",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported label source"
+      },
+      {
+        "address": "0x140386ce0",
+        "references": [
+          {
+            "from": "0x1403865a8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported mask algorithm"
+      },
+      {
+        "address": "0x140386d00",
+        "references": [
+          {
+            "from": "0x1403865b8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported mask parameter"
+      },
+      {
+        "address": "0x140386d20",
+        "references": [
+          {
+            "from": "0x1403865c8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported signature type"
+      },
+      {
+        "address": "0x140387a38",
+        "references": [
+          {
+            "from": "0x140387338",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "command not supported"
+      },
+      {
+        "address": "0x140387d48",
+        "references": [
+          {
+            "from": "0x1403875b8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "keymgmt export failure"
+      },
+      {
+        "address": "0x140387d78",
+        "references": [
+          {
+            "from": "0x1403875d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "locking not supported"
+      },
+      {
+        "address": "0x140387dc0",
+        "references": [
+          {
+            "from": "0x140387608",
+            "function": null
+          },
+          {
+            "from": "0x140388f58",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "method not supported"
+      },
+      {
+        "address": "0x140387e48",
+        "references": [
+          {
+            "from": "0x140387678",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "no import function"
+      },
+      {
+        "address": "0x140387ed0",
+        "references": [
+          {
+            "from": "0x1403876d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "only oneshot supported"
+      },
+      {
+        "address": "0x140388110",
+        "references": [
+          {
+            "from": "0x140387858",
+            "function": null
+          },
+          {
+            "from": "0x140389078",
+            "function": null
+          },
+          {
+            "from": "0x14038d2d8",
+            "function": null
+          },
+          {
+            "from": "0x14038da08",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported algorithm"
+      },
+      {
+        "address": "0x140388128",
+        "references": [
+          {
+            "from": "0x140387878",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported keylength"
+      },
+      {
+        "address": "0x140388140",
+        "references": [
+          {
+            "from": "0x140387888",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported key derivation function"
+      },
+      {
+        "address": "0x140388168",
+        "references": [
+          {
+            "from": "0x140387898",
+            "function": null
+          },
+          {
+            "from": "0x14038f3d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported key size"
+      },
+      {
+        "address": "0x140388180",
+        "references": [
+          {
+            "from": "0x1403878a8",
+            "function": null
+          },
+          {
+            "from": "0x14038da18",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported key type"
+      },
+      {
+        "address": "0x140388198",
+        "references": [
+          {
+            "from": "0x1403878b8",
+            "function": null
+          },
+          {
+            "from": "0x14038f3f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported number of rounds"
+      },
+      {
+        "address": "0x1403881b8",
+        "references": [
+          {
+            "from": "0x1403878c8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported prf"
+      },
+      {
+        "address": "0x1403881c8",
+        "references": [
+          {
+            "from": "0x1403878d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported private key algorithm"
+      },
+      {
+        "address": "0x1403881f0",
+        "references": [
+          {
+            "from": "0x1403878e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported salt type"
+      },
+      {
+        "address": "0x140388788",
+        "references": [
+          {
+            "from": "0x1403884f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported encryption"
+      },
+      {
+        "address": "0x1403887a0",
+        "references": [
+          {
+            "from": "0x140388508",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported key components"
+      },
+      {
+        "address": "0x140388ac0",
+        "references": [
+          {
+            "from": "0x140388848",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "encryption not supported for this key type"
+      },
+      {
+        "address": "0x140388bd8",
+        "references": [
+          {
+            "from": "0x1403888f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "operation not supported on this type"
+      },
+      {
+        "address": "0x140388cc0",
+        "references": [
+          {
+            "from": "0x140388978",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "signing not supported for this key type"
+      },
+      {
+        "address": "0x140388d88",
+        "references": [
+          {
+            "from": "0x1403889e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported cipher type"
+      },
+      {
+        "address": "0x140388da0",
+        "references": [
+          {
+            "from": "0x1403889f8",
+            "function": null
+          },
+          {
+            "from": "0x14038c9f8",
+            "function": null
+          },
+          {
+            "from": "0x14038e728",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported content type"
+      },
+      {
+        "address": "0x1403899e0",
+        "references": [
+          {
+            "from": "0x140389538",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "extension setting not supported"
+      },
+      {
+        "address": "0x140389e70",
+        "references": [
+          {
+            "from": "0x140389858",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported option"
+      },
+      {
+        "address": "0x14038a520",
+        "references": [
+          {
+            "from": "0x14038a398",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported pkcs12 mode"
+      },
+      {
+        "address": "0x14038aab8",
+        "references": [
+          {
+            "from": "0x14038a6f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "prediction resistance not supported"
+      },
+      {
+        "address": "0x14038ac40",
+        "references": [
+          {
+            "from": "0x14038a7d8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported drbg flags"
+      },
+      {
+        "address": "0x14038ac58",
+        "references": [
+          {
+            "from": "0x14038a7e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported drbg type"
+      },
+      {
+        "address": "0x14038af28",
+        "references": [
+          {
+            "from": "0x14038ad68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "functionality not supported"
+      },
+      {
+        "address": "0x14038b698",
+        "references": [
+          {
+            "from": "0x14038b568",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "user data duplication unsupported"
+      },
+      {
+        "address": "0x14038b9a8",
+        "references": [
+          {
+            "from": "0x14038b768",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "invalid port number"
+      },
+      {
+        "address": "0x14038bb20",
+        "references": [
+          {
+            "from": "0x14038b858",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "sock not supported"
+      },
+      {
+        "address": "0x14038bb38",
+        "references": [
+          {
+            "from": "0x14038b868",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "status code unsupported"
+      },
+      {
+        "address": "0x14038bef8",
+        "references": [
+          {
+            "from": "0x14038bd18",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported requestorname type"
+      },
+      {
+        "address": "0x14038c450",
+        "references": [
+          {
+            "from": "0x14038c148",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported md algorithm"
+      },
+      {
+        "address": "0x14038c470",
+        "references": [
+          {
+            "from": "0x14038c158",
+            "function": null
+          },
+          {
+            "from": "0x14038e3c8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported version"
+      },
+      {
+        "address": "0x14038ceb0",
+        "references": [
+          {
+            "from": "0x14038c788",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "not key transport"
+      },
+      {
+        "address": "0x14038ced8",
+        "references": [
+          {
+            "from": "0x14038c7a8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "not supported for this key type"
+      },
+      {
+        "address": "0x14038d0a8",
+        "references": [
+          {
+            "from": "0x14038c9e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported content encryption algorithm"
+      },
+      {
+        "address": "0x14038d0d8",
+        "references": [
+          {
+            "from": "0x14038ca18",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported kek algorithm"
+      },
+      {
+        "address": "0x14038d0f8",
+        "references": [
+          {
+            "from": "0x14038ca28",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported key encryption algorithm"
+      },
+      {
+        "address": "0x14038d120",
+        "references": [
+          {
+            "from": "0x14038ca48",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported recipientinfo type"
+      },
+      {
+        "address": "0x14038d140",
+        "references": [
+          {
+            "from": "0x14038ca58",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported recipient type"
+      },
+      {
+        "address": "0x14038d408",
+        "references": [
+          {
+            "from": "0x14038d258",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "poposkinput not supported"
+      },
+      {
+        "address": "0x14038d4e8",
+        "references": [
+          {
+            "from": "0x14038d2f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported method for creating popo"
+      },
+      {
+        "address": "0x14038d510",
+        "references": [
+          {
+            "from": "0x14038d308",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported popo method"
+      },
+      {
+        "address": "0x14038dac0",
+        "references": [
+          {
+            "from": "0x14038d538",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "algorithm not supported"
+      },
+      {
+        "address": "0x14038dfc8",
+        "references": [
+          {
+            "from": "0x14038d878",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "multiple requests not supported"
+      },
+      {
+        "address": "0x14038dfe8",
+        "references": [
+          {
+            "from": "0x14038d888",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "multiple responses not supported"
+      },
+      {
+        "address": "0x14038e0f8",
+        "references": [
+          {
+            "from": "0x14038d958",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "sender generalname type not supported"
+      },
+      {
+        "address": "0x14038e1f0",
+        "references": [
+          {
+            "from": "0x14038da28",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported protection alg dhbasedmac"
+      },
+      {
+        "address": "0x14038e4f0",
+        "references": [
+          {
+            "from": "0x14038e398",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "sct unsupported version"
+      },
+      {
+        "address": "0x14038e528",
+        "references": [
+          {
+            "from": "0x14038e3b8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported entry type"
+      },
+      {
+        "address": "0x14038e8e0",
+        "references": [
+          {
+            "from": "0x14038e6f8",
+            "function": null
+          },
+          {
+            "from": "0x14038f2e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "search only supported for directories"
+      },
+      {
+        "address": "0x14038e948",
+        "references": [
+          {
+            "from": "0x14038e738",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported operation"
+      },
+      {
+        "address": "0x14038e960",
+        "references": [
+          {
+            "from": "0x14038e748",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported search type"
+      },
+      {
+        "address": "0x14038e978",
+        "references": [
+          {
+            "from": "0x14038e758",
+            "function": null
+          },
+          {
+            "from": "0x14038f408",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "uri authority unsupported"
+      },
+      {
+        "address": "0x14038f8a8",
+        "references": [
+          {
+            "from": "0x14038f1e8",
+            "function": null
+          },
+          {
+            "from": "0x1403d3958",
+            "function": null
+          },
+          {
+            "from": "0x1403dae58",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "not supported"
+      },
+      {
+        "address": "0x14038fa58",
+        "references": [
+          {
+            "from": "0x14038f3c8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported cek alg"
+      },
+      {
+        "address": "0x14038fa70",
+        "references": [
+          {
+            "from": "0x14038f3e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "unsupported mac type"
+      },
+      {
+        "address": "0x1403a7ed0",
+        "references": [
+          {
+            "from": "0x14025aab5",
+            "function": "sub_14025a9d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%*s<Not Supported>"
+      },
+      {
+        "address": "0x1403c82c0",
+        "references": [
+          {
+            "from": "0x140288495",
+            "function": "sub_140288370"
+          }
+        ],
+        "section": ".rdata",
+        "text": "only PKCS#1 padding supported with MDC2"
+      },
+      {
+        "address": "0x1403d3d78",
+        "references": [
+          {
+            "from": "0x1403d35f8",
+            "function": null
+          },
+          {
+            "from": "0x1403dad80",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "address family not supported"
+      },
+      {
+        "address": "0x1403d4260",
+        "references": [
+          {
+            "from": "0x1403d39e8",
+            "function": null
+          },
+          {
+            "from": "0x1403dae88",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "protocol not supported"
+      },
+      {
+        "address": "0x1403dbeb0",
+        "references": [
+          {
+            "from": "0x1403db6b0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "portuguese-brazilian"
+      },
+      {
+        "address": "0x1403e16f8",
+        "references": [
+          {
+            "from": "0x140488cb8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported BMP colormap format"
+      },
+      {
+        "address": "0x1403e1718",
+        "references": [
+          {
+            "from": "0x140488cc0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Only 8-, 24-, and 32-bit BMP files are supported"
+      },
+      {
+        "address": "0x1403e17d0",
+        "references": [
+          {
+            "from": "0x140488ce0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Sorry, compressed BMPs not yet supported"
+      },
+      {
+        "address": "0x1403e1be8",
+        "references": [
+          {
+            "from": "0x140488dd0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported Targa colormap format"
+      },
+      {
+        "address": "0x1403e1c10",
+        "references": [
+          {
+            "from": "0x140488dd8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Invalid or unsupported Targa file"
+      },
+      {
+        "address": "0x1403e1cb8",
+        "references": [
+          {
+            "from": "0x140488e00",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Targa support was not compiled"
+      },
+      {
+        "address": "0x1403e1cd8",
+        "references": [
+          {
+            "from": "0x140488e08",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Color map file is invalid or of unsupported format"
+      },
+      {
+        "address": "0x1403e1d78",
+        "references": [
+          {
+            "from": "0x140488e28",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported output file format"
+      },
+      {
+        "address": "0x1403e2a68",
+        "references": [
+          {
+            "from": "0x1403e2568",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "IDCT output block size %d not supported"
+      },
+      {
+        "address": "0x1403e2b88",
+        "references": [
+          {
+            "from": "0x1403e25a8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported JPEG data precision %d"
+      },
+      {
+        "address": "0x1403e2db0",
+        "references": [
+          {
+            "from": "0x1403e2608",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported color conversion request"
+      },
+      {
+        "address": "0x1403e2e38",
+        "references": [
+          {
+            "from": "0x1403e2630",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Empty JPEG image (DNL not supported)"
+      },
+      {
+        "address": "0x1403e2f78",
+        "references": [
+          {
+            "from": "0x1403e2678",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Maximum supported image dimension is %u pixels"
+      },
+      {
+        "address": "0x1403e3290",
+        "references": [
+          {
+            "from": "0x1403e2710",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported JPEG process: SOF type 0x%02x"
+      },
+      {
+        "address": "0x1403e33f0",
+        "references": [
+          {
+            "from": "0x1403e2750",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unsupported marker type 0x%02x"
+      },
+      {
+        "address": "0x1403e38b0",
+        "references": [
+          {
+            "from": "0x1403e2848",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Smoothing not supported with nonstandard sampling ratios"
+      },
+      {
+        "address": "0x1403ffb30",
+        "references": [
+          {
+            "from": "0x14008c826",
+            "function": "sub_14008c800"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::OnEvtVerificationInputKeyboard failed! OS is not Windows 10 (or above) or missing manifest file of supported OS versions\n"
+      },
+      {
+        "address": "0x140404ff0",
+        "references": [
+          {
+            "from": "0x1400910a4",
+            "function": "sub_140090c20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIService::Main PrivateStatusReportToSCMgr failed!\n"
+      },
+      {
+        "address": "0x1404060b0",
+        "references": [
+          {
+            "from": "0x1400930d0",
+            "function": "sub_1400930b0"
+          },
+          {
+            "from": "0x1400930ef",
+            "function": "sub_1400930b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "TrayApplicationRemoteConnectionSupport"
+      },
+      {
+        "address": "0x140406100",
+        "references": [
+          {
+            "from": "0x1400930fb",
+            "function": "sub_1400930b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SISettings::TrayAppRemoteConnectionIsSupported failed! SIUtilRegistryValueGet %s\n"
+      },
+      {
+        "address": "0x140409400",
+        "references": [
+          {
+            "from": "0x1400955a9",
+            "function": "sub_140095550"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIUtilPlatformSupportsPowerModernStandby failed! CallNtPowerInformation %d\n"
+      },
+      {
+        "address": "0x14040fb90",
+        "references": [
+          {
+            "from": "0x140097631",
+            "function": "sub_140097538"
+          },
+          {
+            "from": "0x140097f7a",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPersist_ failed! Software device does not support persistence\n"
+      },
+      {
+        "address": "0x140420970",
+        "references": [
+          {
+            "from": "0x1400afc0c",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run failed! ComSvcManager.DisplayInsert or Feature unsupported %s\n"
+      },
+      {
+        "address": "0x140420ce0",
+        "references": [
+          {
+            "from": "0x1400b0378",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run IDENTIFIED_SPEAKER failed! Plug or Feature unsupported %s\n"
+      },
+      {
+        "address": "0x1404210d0",
+        "references": [
+          {
+            "from": "0x1400b0bae",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run (Visibility) HID unsupported! Creative video wall %s\n"
+      },
+      {
+        "address": "0x140422690",
+        "references": [
+          {
+            "from": "0x1400b02f5",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::FeatureSpeakerSupportVerify_ failed! %s %s\n"
+      },
+      {
+        "address": "0x140422720",
+        "references": [
+          {
+            "from": "0x1400b343a",
+            "function": "sub_1400b3380"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::FeatureKeyboardSupportVerify_ failed! Not supported by license %s %s\n"
+      },
+      {
+        "address": "0x1404227e0",
+        "references": [
+          {
+            "from": "0x1400b34be",
+            "function": "sub_1400b3380"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::FeatureKeyboardSupportVerify_ failed! m_pEvents->OnEvtVerificationInputKeyboard %s %s\n"
+      },
+      {
+        "address": "0x1404228d0",
+        "references": [
+          {
+            "from": "0x1400b1d90",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::FeatureTouchSupportVerify_ failed! %s %s\n"
+      },
+      {
+        "address": "0x140422960",
+        "references": [
+          {
+            "from": "0x1400b2430",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::FeaturePenSupportVerify_ failed! %s %s\n"
+      },
+      {
+        "address": "0x1404229f0",
+        "references": [
+          {
+            "from": "0x1400b230f",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::FeatureMouseSupportVerify_ failed! %s %s\n"
+      },
+      {
+        "address": "0x140423fc0",
+        "references": [
+          {
+            "from": "0x1400b5870",
+            "function": "sub_1400b5810"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEDeviceApiController::TouchPlug failed! OS is not Windows 10 (or above) or missing manifest file of supported OS versions\n"
+      },
+      {
+        "address": "0x140424570",
+        "references": [
+          {
+            "from": "0x1400b5d00",
+            "function": "sub_1400b5ca0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEDeviceApiController::PenPlug failed! OS is not Windows 10 (or above) or missing manifest file of supported OS versions\n"
+      },
+      {
+        "address": "0x140424a70",
+        "references": [
+          {
+            "from": "0x1400af94a",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEDeviceApiController::KeyboardPlug failed! OS is not Windows 10 (or above) or missing manifest file of supported OS versions\n"
+      },
+      {
+        "address": "0x140424c10",
+        "references": [
+          {
+            "from": "0x1400b1a77",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEDeviceApiController::KeyboardInputSend failed! Missing device OR OS is not Windows 10 (or above) OR missing manifest file of supported OS versions\n"
+      },
+      {
+        "address": "0x1404273a0",
+        "references": [
+          {
+            "from": "0x1400bdae9",
+            "function": "sub_1400bd910"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEDeviceDisplayMonitor::FrameBufferUpdate %s LEGACY - NOT SUPPORTED\n"
+      },
+      {
+        "address": "0x140433e40",
+        "references": [
+          {
+            "from": "0x1400d26a0",
+            "function": "sub_1400d2370"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SLIMftColorConverterHardware::Initialize failed! Unsupported MF_SA_D3D11_AWARE\n"
+      },
+      {
+        "address": "0x140436620",
+        "references": [
+          {
+            "from": "0x1400d4204",
+            "function": "sub_1400d41bd"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SLIMftTransformHardware::Initialize failed! Unsupported MF_SA_D3D11_AWARE\n"
+      },
+      {
+        "address": "0x14043d8c0",
+        "references": [
+          {
+            "from": "0x1400de419",
+            "function": "sub_1400de020"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4ThreadNetDiscovery::Start Port:%d\n"
+      },
+      {
+        "address": "0x14043d910",
+        "references": [
+          {
+            "from": "0x1400de440",
+            "function": "sub_1400de020"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4ThreadNetDiscovery::Start m_Socket.Initialize failed! Port:%d\n"
+      },
+      {
+        "address": "0x14043db80",
+        "references": [
+          {
+            "from": "0x1400dfead",
+            "function": "sub_1400dfc80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4ThreadNetDiscovery::Run m_Socket.Initialize failed! Port:%d\n"
+      },
+      {
+        "address": "0x14043dc00",
+        "references": [
+          {
+            "from": "0x1400dfe21",
+            "function": "sub_1400dfc80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Broadcast Message Received ipAddress:%d.%d.%d.%d reply port:%d 0x%x\n"
+      },
+      {
+        "address": "0x140441dc0",
+        "references": [
+          {
+            "from": "0x1400e4314",
+            "function": "sub_1400e42be"
+          },
+          {
+            "from": "0x1404049a8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>ClientVersionString</key>\n\t<string>usbmuxd</string>\n\t<key>MessageType</key>\n\t<string>Connect</string>\n\t<key>ProgName</key>\n\t<string>spacedeskService.exe</string>\n\t<key>kLibUSBMuxVersion</key>\n\t<integer>3</integer>\n\t<key>DeviceID</key>\n\t<integer>%s</integer>\n\t<key>PortNumber</key>\n\t<integer>%s</integer>\n</dict>\n</plist>\n"
+      },
+      {
+        "address": "0x1404803d0",
+        "references": [],
+        "section": ".rdata",
+        "text": "ReportEventW"
+      },
+      {
+        "address": "0x14048045a",
+        "references": [],
+        "section": ".rdata",
+        "text": "CryptExportKey"
+      },
+      {
+        "address": "0x140485cc8",
+        "references": [
+          {
+            "from": "0x1401e5fcc",
+            "function": "sub_1401e5f6e"
+          }
+        ],
+        "section": ".data",
+        "text": "PKCS12 import pass phrase"
+      },
+      {
+        "address": "0x14048b7b8",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVIspcdskCommLayer4TransportInstance@@"
+      },
+      {
+        "address": "0x1404b7060",
+        "references": [],
+        "section": ".rsrc",
+        "text": "﻿<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\" xmlns:asmv3=\"urn:schemas-microsoft-com:asm.v3\"><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><asmv3:application><asmv3:windowsSettings xmlns=\"http://schemas.microsoft.com/SMI/2020/WindowsSettings\"><heapType>SegmentHeap</heapType></asmv3:windowsSettings></asmv3:application><ms_compatibility:compatibility xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" xmlns=\"urn:schemas-microsoft-com:compatibility.v1\"><ms_compatibility:application xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\"><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}\"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{1f676c76-80e1-4239-95bb-83d0f6d0da78}\"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}\"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{35138b9a-5d96-4fbd-8e2d-a2440225f93a}\"></ms_compatibility:supportedOS></ms_compatibility:application></ms_compatibility:compatibility></assembly>"
+      }
+    ],
+    "total": 199
+  },
+  "summary": "199 strings match \"Port\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 199,
+    "total": 199
+  },
+  "locations": [],
+  "links": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "unk_485f88e77bd95686",
+  "revision": 2,
+  "question": "O aplicativo do tablet spacedesk aceita um servidor Linux que não seja o serviço proprietário do Windows?",
+  "severity": "high",
+  "domain": "compatibilidade",
+  "status": "investigating",
+  "probes": [
+    "consultar documentação oficial do cliente spacedesk sobre servidores compatíveis ou interoperabilidade",
+    "validar com o app receptor em um teste de rede real, se isso for pedido"
+  ],
+  "evidence_for": [
+    "ev_dfa378bf0b3b3cc1a010a9cb32408ab917ae50f658b3293dc92b57320d5fb1df"
+  ],
+  "evidence_against": [
+    "ev_c7661b6dc7201c1d2228fffd298f7f692e5053782ffa7124414b628d20494ce8",
+    "ev_f0a5634939a6e9ab4eaf01b797301e314f465a938f68c90e327bca06df8757c9"
+  ],
+  "resolution": "A inspeção encontrou TCP com identificação e handshake próprios, além da dependência do adaptador virtual do serviço. Isso não confirma nem nega que o app spacedesk para tablet aceite outro servidor. Por decisão de escopo, foi implementada uma rota via navegador do tablet."
+}

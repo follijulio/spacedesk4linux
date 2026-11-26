@@ -1,0 +1,2049 @@
+{
+  "id": "ev_866cd008ce7a0f67bae0d199f47e6e5266c882c0053cb8d9e670bc76f3857519",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_functions_list",
+  "params": {
+    "limit": 200,
+    "offset": 0
+  },
+  "result": {
+    "functions": [
+      {
+        "address": "0x140001000",
+        "blocks": 21,
+        "found_by": "call",
+        "instructions": 368,
+        "name": "sub_140001000",
+        "name_source": "generated",
+        "size": 1396,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400015a0",
+        "blocks": 7,
+        "found_by": "call",
+        "instructions": 35,
+        "name": "sub_1400015a0",
+        "name_source": "generated",
+        "size": 109,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140001620",
+        "blocks": 20,
+        "found_by": "code_pointer",
+        "instructions": 288,
+        "name": "sub_140001620",
+        "name_source": "generated",
+        "size": 1198,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140001ae0",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 288,
+        "name": "sub_140001ae0",
+        "name_source": "generated",
+        "size": 1198,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140001fa0",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 272,
+        "name": "sub_140001fa0",
+        "name_source": "generated",
+        "size": 1146,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140002420",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 288,
+        "name": "sub_140002420",
+        "name_source": "generated",
+        "size": 1198,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400028e0",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 272,
+        "name": "sub_1400028e0",
+        "name_source": "generated",
+        "size": 1146,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140002d60",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 272,
+        "name": "sub_140002d60",
+        "name_source": "generated",
+        "size": 1146,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400031e0",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 272,
+        "name": "sub_1400031e0",
+        "name_source": "generated",
+        "size": 1146,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140003660",
+        "blocks": 22,
+        "found_by": "code_pointer",
+        "instructions": 299,
+        "name": "sub_140003660",
+        "name_source": "generated",
+        "size": 1277,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140003b60",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 299,
+        "name": "sub_140003b60",
+        "name_source": "generated",
+        "size": 1277,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140004060",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 286,
+        "name": "sub_140004060",
+        "name_source": "generated",
+        "size": 1239,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140004540",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 299,
+        "name": "sub_140004540",
+        "name_source": "generated",
+        "size": 1277,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140004a40",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 286,
+        "name": "sub_140004a40",
+        "name_source": "generated",
+        "size": 1239,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140004f20",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 286,
+        "name": "sub_140004f20",
+        "name_source": "generated",
+        "size": 1239,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140005400",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 286,
+        "name": "sub_140005400",
+        "name_source": "generated",
+        "size": 1239,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400058e0",
+        "blocks": 20,
+        "found_by": "code_pointer",
+        "instructions": 188,
+        "name": "sub_1400058e0",
+        "name_source": "generated",
+        "size": 717,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140005bc0",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 188,
+        "name": "sub_140005bc0",
+        "name_source": "generated",
+        "size": 717,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140005ea0",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 172,
+        "name": "sub_140005ea0",
+        "name_source": "generated",
+        "size": 665,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140006140",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 188,
+        "name": "sub_140006140",
+        "name_source": "generated",
+        "size": 717,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140006420",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 172,
+        "name": "sub_140006420",
+        "name_source": "generated",
+        "size": 665,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400066c0",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 172,
+        "name": "sub_1400066c0",
+        "name_source": "generated",
+        "size": 665,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140006960",
+        "blocks": 16,
+        "found_by": "prologue",
+        "instructions": 172,
+        "name": "sub_140006960",
+        "name_source": "generated",
+        "size": 665,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140006c00",
+        "blocks": 22,
+        "found_by": "code_pointer",
+        "instructions": 199,
+        "name": "sub_140006c00",
+        "name_source": "generated",
+        "size": 769,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140006f20",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 199,
+        "name": "sub_140006f20",
+        "name_source": "generated",
+        "size": 769,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140007240",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 186,
+        "name": "sub_140007240",
+        "name_source": "generated",
+        "size": 731,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140007520",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 199,
+        "name": "sub_140007520",
+        "name_source": "generated",
+        "size": 769,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140007840",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 186,
+        "name": "sub_140007840",
+        "name_source": "generated",
+        "size": 731,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140007b20",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 186,
+        "name": "sub_140007b20",
+        "name_source": "generated",
+        "size": 731,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140007e00",
+        "blocks": 18,
+        "found_by": "prologue",
+        "instructions": 186,
+        "name": "sub_140007e00",
+        "name_source": "generated",
+        "size": 731,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400080e0",
+        "blocks": 24,
+        "found_by": "prologue",
+        "instructions": 242,
+        "name": "sub_1400080e0",
+        "name_source": "generated",
+        "size": 949,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400084a0",
+        "blocks": 24,
+        "found_by": "prologue",
+        "instructions": 242,
+        "name": "sub_1400084a0",
+        "name_source": "generated",
+        "size": 949,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140008860",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_140008860",
+        "name_source": "generated",
+        "size": 858,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140008bc0",
+        "blocks": 24,
+        "found_by": "prologue",
+        "instructions": 242,
+        "name": "sub_140008bc0",
+        "name_source": "generated",
+        "size": 949,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140008f80",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_140008f80",
+        "name_source": "generated",
+        "size": 858,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400092e0",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_1400092e0",
+        "name_source": "generated",
+        "size": 858,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140009640",
+        "blocks": 20,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_140009640",
+        "name_source": "generated",
+        "size": 858,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400099a0",
+        "blocks": 26,
+        "found_by": "prologue",
+        "instructions": 239,
+        "name": "sub_1400099a0",
+        "name_source": "generated",
+        "size": 940,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140009d60",
+        "blocks": 26,
+        "found_by": "prologue",
+        "instructions": 239,
+        "name": "sub_140009d60",
+        "name_source": "generated",
+        "size": 940,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000a120",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_14000a120",
+        "name_source": "generated",
+        "size": 868,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000a4a0",
+        "blocks": 26,
+        "found_by": "prologue",
+        "instructions": 239,
+        "name": "sub_14000a4a0",
+        "name_source": "generated",
+        "size": 940,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000a860",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_14000a860",
+        "name_source": "generated",
+        "size": 868,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000abe0",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_14000abe0",
+        "name_source": "generated",
+        "size": 868,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000af60",
+        "blocks": 22,
+        "found_by": "prologue",
+        "instructions": 218,
+        "name": "sub_14000af60",
+        "name_source": "generated",
+        "size": 868,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000b2e0",
+        "blocks": 14,
+        "found_by": "call",
+        "instructions": 106,
+        "name": "sub_14000b2e0",
+        "name_source": "generated",
+        "size": 322,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000b440",
+        "blocks": 14,
+        "found_by": "call",
+        "instructions": 122,
+        "name": "sub_14000b440",
+        "name_source": "generated",
+        "size": 398,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000b5e0",
+        "blocks": 18,
+        "found_by": "call",
+        "instructions": 119,
+        "name": "sub_14000b5e0",
+        "name_source": "generated",
+        "size": 376,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000b760",
+        "blocks": 18,
+        "found_by": "call",
+        "instructions": 137,
+        "name": "sub_14000b760",
+        "name_source": "generated",
+        "size": 457,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000b940",
+        "blocks": 12,
+        "found_by": "prologue",
+        "instructions": 108,
+        "name": "sub_14000b940",
+        "name_source": "generated",
+        "size": 411,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000bae0",
+        "blocks": 12,
+        "found_by": "prologue",
+        "instructions": 228,
+        "name": "sub_14000bae0",
+        "name_source": "generated",
+        "size": 966,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000bec0",
+        "blocks": 9,
+        "found_by": "prologue",
+        "instructions": 64,
+        "name": "sub_14000bec0",
+        "name_source": "generated",
+        "size": 196,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000bfa0",
+        "blocks": 9,
+        "found_by": "prologue",
+        "instructions": 72,
+        "name": "sub_14000bfa0",
+        "name_source": "generated",
+        "size": 234,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000c0a0",
+        "blocks": 12,
+        "found_by": "prologue",
+        "instructions": 120,
+        "name": "sub_14000c0a0",
+        "name_source": "generated",
+        "size": 493,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000c2a0",
+        "blocks": 12,
+        "found_by": "prologue",
+        "instructions": 243,
+        "name": "sub_14000c2a0",
+        "name_source": "generated",
+        "size": 1122,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000c720",
+        "blocks": 10,
+        "found_by": "prologue",
+        "instructions": 65,
+        "name": "sub_14000c720",
+        "name_source": "generated",
+        "size": 201,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000c800",
+        "blocks": 10,
+        "found_by": "prologue",
+        "instructions": 73,
+        "name": "sub_14000c800",
+        "name_source": "generated",
+        "size": 237,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000c900",
+        "blocks": 25,
+        "found_by": "prologue",
+        "instructions": 226,
+        "name": "sub_14000c900",
+        "name_source": "generated",
+        "size": 924,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000cca0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000cca0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000cd80",
+        "blocks": 25,
+        "found_by": "prologue",
+        "instructions": 226,
+        "name": "sub_14000cd80",
+        "name_source": "generated",
+        "size": 924,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000d120",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000d120",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000d200",
+        "blocks": 21,
+        "found_by": "prologue",
+        "instructions": 202,
+        "name": "sub_14000d200",
+        "name_source": "generated",
+        "size": 833,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000d560",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000d560",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000d640",
+        "blocks": 25,
+        "found_by": "prologue",
+        "instructions": 226,
+        "name": "sub_14000d640",
+        "name_source": "generated",
+        "size": 924,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000d9e0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000d9e0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000dac0",
+        "blocks": 21,
+        "found_by": "prologue",
+        "instructions": 202,
+        "name": "sub_14000dac0",
+        "name_source": "generated",
+        "size": 833,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000de20",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000de20",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000df00",
+        "blocks": 21,
+        "found_by": "prologue",
+        "instructions": 202,
+        "name": "sub_14000df00",
+        "name_source": "generated",
+        "size": 833,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000e260",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000e260",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000e340",
+        "blocks": 21,
+        "found_by": "prologue",
+        "instructions": 202,
+        "name": "sub_14000e340",
+        "name_source": "generated",
+        "size": 833,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000e6a0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000e6a0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000e780",
+        "blocks": 27,
+        "found_by": "prologue",
+        "instructions": 224,
+        "name": "sub_14000e780",
+        "name_source": "generated",
+        "size": 923,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000eb20",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000eb20",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000ec00",
+        "blocks": 27,
+        "found_by": "prologue",
+        "instructions": 224,
+        "name": "sub_14000ec00",
+        "name_source": "generated",
+        "size": 923,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000efa0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000efa0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000f080",
+        "blocks": 23,
+        "found_by": "prologue",
+        "instructions": 203,
+        "name": "sub_14000f080",
+        "name_source": "generated",
+        "size": 851,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000f3e0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000f3e0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000f4c0",
+        "blocks": 27,
+        "found_by": "prologue",
+        "instructions": 224,
+        "name": "sub_14000f4c0",
+        "name_source": "generated",
+        "size": 923,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000f860",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000f860",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000f940",
+        "blocks": 23,
+        "found_by": "prologue",
+        "instructions": 203,
+        "name": "sub_14000f940",
+        "name_source": "generated",
+        "size": 851,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000fca0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_14000fca0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14000fd80",
+        "blocks": 23,
+        "found_by": "prologue",
+        "instructions": 203,
+        "name": "sub_14000fd80",
+        "name_source": "generated",
+        "size": 851,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400100e0",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_1400100e0",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400101c0",
+        "blocks": 23,
+        "found_by": "prologue",
+        "instructions": 203,
+        "name": "sub_1400101c0",
+        "name_source": "generated",
+        "size": 851,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140010520",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 74,
+        "name": "sub_140010520",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140010600",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 54,
+        "name": "sub_140010600",
+        "name_source": "generated",
+        "size": 183,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400106c0",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 74,
+        "name": "sub_1400106c0",
+        "name_source": "generated",
+        "size": 311,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140010800",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 53,
+        "name": "sub_140010800",
+        "name_source": "generated",
+        "size": 216,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400108e0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 50,
+        "name": "sub_1400108e0",
+        "name_source": "generated",
+        "size": 243,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400109e0",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 58,
+        "name": "sub_1400109e0",
+        "name_source": "generated",
+        "size": 193,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140010ac0",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 46,
+        "name": "sub_140010ac0",
+        "name_source": "generated",
+        "size": 149,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140010b60",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 360,
+        "name": "sub_140010b60",
+        "name_source": "generated",
+        "size": 1773,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140011260",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 163,
+        "name": "sub_140011260",
+        "name_source": "generated",
+        "size": 842,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400115c0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 240,
+        "name": "sub_1400115c0",
+        "name_source": "generated",
+        "size": 1049,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400119e0",
+        "blocks": 5,
+        "found_by": "call",
+        "instructions": 221,
+        "name": "sub_1400119e0",
+        "name_source": "generated",
+        "size": 813,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140011d20",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 223,
+        "name": "sub_140011d20",
+        "name_source": "generated",
+        "size": 983,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140012100",
+        "blocks": 1,
+        "found_by": "prologue",
+        "instructions": 105,
+        "name": "sub_140012100",
+        "name_source": "generated",
+        "size": 444,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400122c0",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 542,
+        "name": "sub_1400122c0",
+        "name_source": "generated",
+        "size": 2631,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140012d20",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 269,
+        "name": "sub_140012d20",
+        "name_source": "generated",
+        "size": 1352,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140013280",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 301,
+        "name": "sub_140013280",
+        "name_source": "generated",
+        "size": 1315,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400137c0",
+        "blocks": 9,
+        "found_by": "prologue",
+        "instructions": 325,
+        "name": "sub_1400137c0",
+        "name_source": "generated",
+        "size": 1261,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140013cc0",
+        "blocks": 26,
+        "found_by": "call",
+        "instructions": 273,
+        "name": "sub_140013cc0",
+        "name_source": "generated",
+        "size": 1211,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014180",
+        "blocks": 34,
+        "found_by": "call",
+        "instructions": 325,
+        "name": "sub_140014180",
+        "name_source": "generated",
+        "size": 1353,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014700",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 8,
+        "name": "sub_140014700",
+        "name_source": "generated",
+        "size": 24,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014720",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 5,
+        "name": "sub_140014720",
+        "name_source": "generated",
+        "size": 15,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014730",
+        "blocks": 31,
+        "found_by": "call",
+        "instructions": 134,
+        "name": "sub_140014730",
+        "name_source": "generated",
+        "size": 517,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014940",
+        "blocks": 9,
+        "found_by": "call",
+        "instructions": 25,
+        "name": "sub_140014940",
+        "name_source": "generated",
+        "size": 82,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400149b0",
+        "blocks": 6,
+        "found_by": "call",
+        "instructions": 25,
+        "name": "sub_1400149b0",
+        "name_source": "generated",
+        "size": 83,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014a50",
+        "blocks": 3,
+        "found_by": "prologue",
+        "instructions": 22,
+        "name": "sub_140014a50",
+        "name_source": "generated",
+        "size": 70,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014ab0",
+        "blocks": 4,
+        "found_by": "prologue",
+        "instructions": 33,
+        "name": "sub_140014ab0",
+        "name_source": "generated",
+        "size": 107,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014b20",
+        "blocks": 10,
+        "found_by": "call",
+        "instructions": 27,
+        "name": "sub_140014b20",
+        "name_source": "generated",
+        "size": 89,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014b90",
+        "blocks": 10,
+        "found_by": "prologue",
+        "instructions": 27,
+        "name": "sub_140014b90",
+        "name_source": "generated",
+        "size": 89,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014c00",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_140014c00",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014c0d",
+        "blocks": 3,
+        "found_by": "function_starts",
+        "instructions": 13,
+        "name": "sub_140014c0d",
+        "name_source": "generated",
+        "size": 38,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140014c33",
+        "blocks": 46,
+        "found_by": "code_pointer",
+        "instructions": 460,
+        "name": "sub_140014c33",
+        "name_source": "generated",
+        "size": 1588,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001528d",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 3,
+        "name": "sub_14001528d",
+        "name_source": "generated",
+        "size": 12,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400152a0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_1400152a0",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400152ad",
+        "blocks": 13,
+        "found_by": "function_starts",
+        "instructions": 57,
+        "name": "sub_1400152ad",
+        "name_source": "generated",
+        "size": 193,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140015390",
+        "blocks": 5,
+        "found_by": "prologue",
+        "instructions": 11,
+        "name": "sub_140015390",
+        "name_source": "generated",
+        "size": 41,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400153c0",
+        "blocks": 24,
+        "found_by": "code_pointer",
+        "instructions": 109,
+        "name": "sub_1400153c0",
+        "name_source": "generated",
+        "size": 380,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140015600",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 123,
+        "name": "sub_140015600",
+        "name_source": "generated",
+        "size": 479,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400157f0",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 157,
+        "name": "sub_1400157f0",
+        "name_source": "generated",
+        "size": 591,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140015a60",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_140015a60",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140015a6d",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 52,
+        "name": "sub_140015a6d",
+        "name_source": "generated",
+        "size": 200,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140015b40",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 125,
+        "name": "sub_140015b40",
+        "name_source": "generated",
+        "size": 461,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140015d20",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 202,
+        "name": "sub_140015d20",
+        "name_source": "generated",
+        "size": 725,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140016010",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_140016010",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001601d",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 54,
+        "name": "sub_14001601d",
+        "name_source": "generated",
+        "size": 207,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400160f0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_1400160f0",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400160fd",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 18,
+        "name": "sub_1400160fd",
+        "name_source": "generated",
+        "size": 58,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140016140",
+        "blocks": 22,
+        "found_by": "call",
+        "instructions": 184,
+        "name": "sub_140016140",
+        "name_source": "generated",
+        "size": 647,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400163d0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_1400163d0",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400163dd",
+        "blocks": 7,
+        "found_by": "function_starts",
+        "instructions": 165,
+        "name": "sub_1400163dd",
+        "name_source": "generated",
+        "size": 562,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140016610",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 3,
+        "name": "sub_140016610",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001661d",
+        "blocks": 42,
+        "found_by": "function_starts",
+        "instructions": 352,
+        "name": "sub_14001661d",
+        "name_source": "generated",
+        "size": 1420,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140016c00",
+        "blocks": 0,
+        "found_by": "code_pointer",
+        "instructions": 0,
+        "name": "sub_140016c00",
+        "name_source": "generated",
+        "size": 0,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140017400",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 3,
+        "name": "sub_140017400",
+        "name_source": "generated",
+        "size": 12,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140017800",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 19,
+        "name": "sub_140017800",
+        "name_source": "generated",
+        "size": 52,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140017840",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 2,
+        "name": "sub_140017840",
+        "name_source": "generated",
+        "size": 2,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140018040",
+        "blocks": 5,
+        "found_by": "code_pointer",
+        "instructions": 19,
+        "name": "sub_140018040",
+        "name_source": "generated",
+        "size": 44,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140018800",
+        "blocks": 10,
+        "found_by": "call",
+        "instructions": 30,
+        "name": "sub_140018800",
+        "name_source": "generated",
+        "size": 98,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140018870",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 10,
+        "name": "sub_140018870",
+        "name_source": "generated",
+        "size": 28,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400188b0",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 9,
+        "name": "sub_1400188b0",
+        "name_source": "generated",
+        "size": 26,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400188d0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_1400188d0",
+        "name_source": "generated",
+        "size": 6,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400188e0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 15,
+        "name": "sub_1400188e0",
+        "name_source": "generated",
+        "size": 59,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140018920",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 10,
+        "name": "sub_140018920",
+        "name_source": "generated",
+        "size": 36,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140018b70",
+        "blocks": 23,
+        "found_by": "call",
+        "instructions": 152,
+        "name": "sub_140018b70",
+        "name_source": "generated",
+        "size": 570,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140018dd0",
+        "blocks": 23,
+        "found_by": "call",
+        "instructions": 156,
+        "name": "sub_140018dd0",
+        "name_source": "generated",
+        "size": 583,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140019030",
+        "blocks": 17,
+        "found_by": "call",
+        "instructions": 104,
+        "name": "sub_140019030",
+        "name_source": "generated",
+        "size": 398,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400191d0",
+        "blocks": 17,
+        "found_by": "call",
+        "instructions": 104,
+        "name": "sub_1400191d0",
+        "name_source": "generated",
+        "size": 398,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140019370",
+        "blocks": 29,
+        "found_by": "call",
+        "instructions": 210,
+        "name": "sub_140019370",
+        "name_source": "generated",
+        "size": 773,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140019700",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_140019700",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001970d",
+        "blocks": 64,
+        "found_by": "function_starts",
+        "instructions": 932,
+        "name": "sub_14001970d",
+        "name_source": "generated",
+        "size": 3733,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400199cd",
+        "blocks": 30,
+        "found_by": "function_starts",
+        "instructions": 634,
+        "name": "sub_1400199cd",
+        "name_source": "generated",
+        "size": 2618,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140019f4d",
+        "blocks": 13,
+        "found_by": "function_starts",
+        "instructions": 130,
+        "name": "sub_140019f4d",
+        "name_source": "generated",
+        "size": 507,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001a18d",
+        "blocks": 15,
+        "found_by": "function_starts",
+        "instructions": 280,
+        "name": "sub_14001a18d",
+        "name_source": "generated",
+        "size": 1274,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001a900",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_14001a900",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001a90d",
+        "blocks": 10,
+        "found_by": "function_starts",
+        "instructions": 584,
+        "name": "sub_14001a90d",
+        "name_source": "generated",
+        "size": 3084,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001b580",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_14001b580",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001b58d",
+        "blocks": 5,
+        "found_by": "function_starts",
+        "instructions": 507,
+        "name": "sub_14001b58d",
+        "name_source": "generated",
+        "size": 2477,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001bf60",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 191,
+        "name": "sub_14001bf60",
+        "name_source": "generated",
+        "size": 702,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001c220",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 152,
+        "name": "sub_14001c220",
+        "name_source": "generated",
+        "size": 588,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001c480",
+        "blocks": 3,
+        "found_by": "call",
+        "instructions": 15,
+        "name": "sub_14001c480",
+        "name_source": "generated",
+        "size": 59,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001c4e0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_14001c4e0",
+        "name_source": "generated",
+        "size": 14,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001c4ee",
+        "blocks": 3,
+        "found_by": "function_starts",
+        "instructions": 123,
+        "name": "sub_14001c4ee",
+        "name_source": "generated",
+        "size": 649,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001c780",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 9,
+        "name": "sub_14001c780",
+        "name_source": "generated",
+        "size": 35,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001c820",
+        "blocks": 4,
+        "found_by": "code_pointer",
+        "instructions": 127,
+        "name": "sub_14001c820",
+        "name_source": "generated",
+        "size": 392,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001ca00",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 2,
+        "name": "sub_14001ca00",
+        "name_source": "generated",
+        "size": 4,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001ca04",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 1,
+        "name": "sub_14001ca04",
+        "name_source": "generated",
+        "size": 2,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001cb00",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_14001cb00",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001cb0d",
+        "blocks": 33,
+        "found_by": "function_starts",
+        "instructions": 454,
+        "name": "sub_14001cb0d",
+        "name_source": "generated",
+        "size": 2024,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001d164",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 3,
+        "name": "sub_14001d164",
+        "name_source": "generated",
+        "size": 12,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001d18d",
+        "blocks": 15,
+        "found_by": "function_starts",
+        "instructions": 115,
+        "name": "sub_14001d18d",
+        "name_source": "generated",
+        "size": 464,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001d2a0",
+        "blocks": 10,
+        "found_by": "call",
+        "instructions": 483,
+        "name": "sub_14001d2a0",
+        "name_source": "generated",
+        "size": 2066,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001da80",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_14001da80",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001da8d",
+        "blocks": 15,
+        "found_by": "function_starts",
+        "instructions": 160,
+        "name": "sub_14001da8d",
+        "name_source": "generated",
+        "size": 674,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001dc00",
+        "blocks": 19,
+        "found_by": "call",
+        "instructions": 591,
+        "name": "sub_14001dc00",
+        "name_source": "generated",
+        "size": 2149,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001e4c0",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 43,
+        "name": "sub_14001e4c0",
+        "name_source": "generated",
+        "size": 149,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001e56d",
+        "blocks": 7,
+        "found_by": "function_starts",
+        "instructions": 60,
+        "name": "sub_14001e56d",
+        "name_source": "generated",
+        "size": 236,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001e660",
+        "blocks": 10,
+        "found_by": "call",
+        "instructions": 399,
+        "name": "sub_14001e660",
+        "name_source": "generated",
+        "size": 2034,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001ee4d",
+        "blocks": 7,
+        "found_by": "function_starts",
+        "instructions": 82,
+        "name": "sub_14001ee4d",
+        "name_source": "generated",
+        "size": 337,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001efc0",
+        "blocks": 25,
+        "found_by": "call",
+        "instructions": 464,
+        "name": "sub_14001efc0",
+        "name_source": "generated",
+        "size": 2307,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001f920",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 38,
+        "name": "sub_14001f920",
+        "name_source": "generated",
+        "size": 141,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001f9b0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 13,
+        "name": "sub_14001f9b0",
+        "name_source": "generated",
+        "size": 40,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001f9e0",
+        "blocks": 4,
+        "found_by": "call",
+        "instructions": 10,
+        "name": "sub_14001f9e0",
+        "name_source": "generated",
+        "size": 33,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001fa20",
+        "blocks": 3,
+        "found_by": "function_starts",
+        "instructions": 137,
+        "name": "sub_14001fa20",
+        "name_source": "generated",
+        "size": 625,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001fcc0",
+        "blocks": 24,
+        "found_by": "code_pointer",
+        "instructions": 110,
+        "name": "sub_14001fcc0",
+        "name_source": "generated",
+        "size": 376,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14001ff00",
+        "blocks": 7,
+        "found_by": "code_pointer",
+        "instructions": 14,
+        "name": "sub_14001ff00",
+        "name_source": "generated",
+        "size": 28,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044f00",
+        "blocks": 0,
+        "found_by": "code_pointer",
+        "instructions": 0,
+        "name": "sub_140044f00",
+        "name_source": "generated",
+        "size": 0,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044f08",
+        "blocks": 0,
+        "found_by": "code_pointer",
+        "instructions": 0,
+        "name": "sub_140044f08",
+        "name_source": "generated",
+        "size": 0,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044f18",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 2,
+        "name": "sub_140044f18",
+        "name_source": "generated",
+        "size": 4,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044f20",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 4,
+        "name": "sub_140044f20",
+        "name_source": "generated",
+        "size": 8,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044f40",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 54,
+        "name": "sub_140044f40",
+        "name_source": "generated",
+        "size": 108,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044fc0",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 7,
+        "name": "sub_140044fc0",
+        "name_source": "generated",
+        "size": 16,
+        "thunk_of": null
+      },
+      {
+        "address": "0x140044fe0",
+        "blocks": 1,
+        "found_by": "code_pointer",
+        "instructions": 6,
+        "name": "sub_140044fe0",
+        "name_source": "generated",
+        "size": 45,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14004500d",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 38,
+        "name": "sub_14004500d",
+        "name_source": "generated",
+        "size": 139,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400450ad",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 51,
+        "name": "sub_1400450ad",
+        "name_source": "generated",
+        "size": 185,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14004518d",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 56,
+        "name": "sub_14004518d",
+        "name_source": "generated",
+        "size": 215,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14004528d",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 39,
+        "name": "sub_14004528d",
+        "name_source": "generated",
+        "size": 145,
+        "thunk_of": null
+      },
+      {
+        "address": "0x14004532d",
+        "blocks": 1,
+        "found_by": "function_starts",
+        "instructions": 39,
+        "name": "sub_14004532d",
+        "name_source": "generated",
+        "size": 144,
+        "thunk_of": null
+      },
+      {
+        "address": "0x1400453c0",
+        "blocks": 1,
+        "found_by": "call",
+        "instructions": 3,
+        "name": "sub_1400453c0",
+        "name_source": "generated",
+        "size": 13,
+        "thunk_of": null
+      }
+    ],
+    "total": 14216
+  },
+  "summary": "14216 functions (showing 200).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "indirect_jumps_unresolved",
+      "message": "391 indirect jumps could not be resolved; code they reach may be missing"
+    },
+    {
+      "code": "stripped_binary",
+      "message": "no local symbols: most function names are generated (sub_…)"
+    },
+    {
+      "code": "static_analysis_only",
+      "message": "functions reached only through computed pointers or at run time may be missing; absence is not proof"
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 14216,
+    "next_offset": 200
+  },
+  "locations": [],
+  "links": []
+}

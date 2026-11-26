@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "values": [
+    {"name":"conector de rede controlado por NetworkConnectionEnabled","group":"rede","value":true,"source":"function 0x14008b560"},
+    {"name":"transporte de rede original","group":"rede","value":"TCP","source":"function 0x14008b560"},
+    {"name":"identificação HTTP e handshake WebSocket original","group":"protocolo","value":true,"source":"function 0x1400e0710"},
+    {"name":"captura original dependente do driver de vídeo virtual","group":"captura","value":true,"source":"function 0x14009b890"},
+    {"name":"protocolo de transmissão spacedesk for Linux","group":"protocolo","value":"HTTP MJPEG para navegador","estimated":true},
+    {"name":"porta local HTTP","group":"rede","value":18900,"unit":"porta TCP","estimated":true},
+    {"name":"intervalo entre quadros","group":"captura","value":50,"unit":"ms","estimated":true},
+    {"name":"qualidade JPEG","group":"captura","value":65,"unit":"de 100","estimated":true},
+    {"name":"largura máxima de captura","group":"captura","value":1920,"unit":"px","estimated":true},
+    {"name":"quadros antes de salvar --screenshot","group":"janela","value":120,"unit":"quadros","estimated":true}
+  ]
+}

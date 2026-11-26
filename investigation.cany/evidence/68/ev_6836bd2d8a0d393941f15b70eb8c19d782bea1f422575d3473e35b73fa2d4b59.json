@@ -1,0 +1,593 @@
+{
+  "id": "ev_6836bd2d8a0d393941f15b70eb8c19d782bea1f422575d3473e35b73fa2d4b59",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 50,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "display"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x14032a6b0",
+        "references": [
+          {
+            "from": "0x14032a3b8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "DISPLAYTEXT"
+      },
+      {
+        "address": "0x1403ff880",
+        "references": [
+          {
+            "from": "0x14008c270",
+            "function": "sub_14008c250"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::OnEvtDeviceDisplayVisibility %s  %s  Visible: %d\n"
+      },
+      {
+        "address": "0x1403ff910",
+        "references": [
+          {
+            "from": "0x14008c344",
+            "function": "sub_14008c2f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIConnectionListener::OnEvtDeviceDisplayRotation failed! m_ThreadTrayAppManager.CommandSubmit\n"
+      },
+      {
+        "address": "0x140405b00",
+        "references": [
+          {
+            "from": "0x140092f1b",
+            "function": "sub_140092ed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SISettings::DisplayDriverInstallOnBus failed! SIUtilRegistryValueGet %s\n"
+      },
+      {
+        "address": "0x1404071a0",
+        "references": [
+          {
+            "from": "0x1400942c0",
+            "function": "sub_140093860"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SIThreadTrayAppManager::Run DISPLAY CHANGE\n"
+      },
+      {
+        "address": "0x140407bd0",
+        "references": [
+          {
+            "from": "0x140094cdc",
+            "function": "sub_140094a90"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SITrayPipeManager::Initialize failed! Transmit ST_PIPE_MSG_ID_DISPLAY_CHANGE_EVENT_GET\n"
+      },
+      {
+        "address": "0x140407c80",
+        "references": [
+          {
+            "from": "0x140094d50",
+            "function": "sub_140094a90"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SITrayPipeManager::Initialize failed! Receive ST_PIPE_MSG_ID_DISPLAY_CHANGE_EVENT_GET\n"
+      },
+      {
+        "address": "0x14040b490",
+        "references": [
+          {
+            "from": "0x140099a63",
+            "function": "sub_1400999a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorConnect failed! m_ListThreadsMonitor.IsAdapterConnectorAvailable AdapterConnectorIndex:%d\n"
+      },
+      {
+        "address": "0x14040b590",
+        "references": [
+          {
+            "from": "0x140097a6e",
+            "function": "sub_1400977b0"
+          },
+          {
+            "from": "0x140099afa",
+            "function": "sub_1400999a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorConnect failed! PrivateThreadInitialize AdapterConnectorIndex:%d\n"
+      },
+      {
+        "address": "0x14040b650",
+        "references": [
+          {
+            "from": "0x140097ab5",
+            "function": "sub_1400977b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALApiHighLevel::DisplayMonitorConnect PrivateAdapterConnectorAssignmentRegistrySave failed!\n"
+      },
+      {
+        "address": "0x14040b710",
+        "references": [
+          {
+            "from": "0x140099b91",
+            "function": "sub_140099b70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALApiHighLevel::DisplayMonitorDisconnect failed!\n"
+      },
+      {
+        "address": "0x14040b780",
+        "references": [
+          {
+            "from": "0x140097bb2",
+            "function": "sub_140097af0"
+          },
+          {
+            "from": "0x14009922e",
+            "function": "sub_140099161"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorAssignmentEnumerate failed! EnumIdx:%d\n"
+      },
+      {
+        "address": "0x14040ba70",
+        "references": [
+          {
+            "from": "0x140097c90",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::OnWmDeviceChange failed! m_pBus->ChildDisplayOpen\n"
+      },
+      {
+        "address": "0x14040bb00",
+        "references": [
+          {
+            "from": "0x140097cb6",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::OnWmDeviceChange (display adapter arrival) failed! RenderAdapterSet_\n"
+      },
+      {
+        "address": "0x14040bdd0",
+        "references": [],
+        "section": ".rdata",
+        "text": "ALWindowHidden::OnWmAppDisplayAdapterInitialize failed! m_pBus->ChildDisplayOpen\n"
+      },
+      {
+        "address": "0x14040be80",
+        "references": [],
+        "section": ".rdata",
+        "text": "ALWindowHidden::OnWmAppDisplayAdapterInitialize failed! RenderAdapterSet_\n"
+      },
+      {
+        "address": "0x14040c5c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "WM_APP_DISPLAY_ADAPTER_INITIALIZE\n"
+      },
+      {
+        "address": "0x14040c610",
+        "references": [],
+        "section": ".rdata",
+        "text": "WM_APP_DISPLAY_MONITOR_CONNECT\n"
+      },
+      {
+        "address": "0x14040c650",
+        "references": [],
+        "section": ".rdata",
+        "text": "WM_APP_DISPLAY_MONITOR_DISCONNECT DisconnectType:%d\n"
+      },
+      {
+        "address": "0x14040c940",
+        "references": [
+          {
+            "from": "0x14009917e",
+            "function": "sub_140099161"
+          },
+          {
+            "from": "0x1400da894",
+            "function": "sub_1400da850"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\WUDF\\Services\\spacedeskDisplayUmode"
+      },
+      {
+        "address": "0x14040c9f0",
+        "references": [
+          {
+            "from": "0x140099256",
+            "function": "sub_140099161"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::PrivateMonitorPluggedCountValidate failed! CountPluggedDisplays:%d >= MonitorCount:%d\n"
+      },
+      {
+        "address": "0x14040ce50",
+        "references": [
+          {
+            "from": "0x140099827",
+            "function": "sub_140099770"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALApiHighLevel::Initialize failed! Display adapter\n"
+      },
+      {
+        "address": "0x14040cf40",
+        "references": [
+          {
+            "from": "0x140099933",
+            "function": "sub_1400998f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorConnect failed! m_WindowHidden.DisplayMonitorConnect\n"
+      },
+      {
+        "address": "0x14040cff0",
+        "references": [
+          {
+            "from": "0x140099973",
+            "function": "sub_140099958"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorConnect failed! m_WindowHidden.MessageSend\n"
+      },
+      {
+        "address": "0x14040d090",
+        "references": [
+          {
+            "from": "0x140099a84",
+            "function": "sub_1400999a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorConnect2 failed! m_WindowHidden.DisplayMonitorConnect AdapterConnectorIndex:%d\n"
+      },
+      {
+        "address": "0x14040d170",
+        "references": [
+          {
+            "from": "0x140099b46",
+            "function": "sub_1400999a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALWindowHidden::DisplayMonitorConnect2 failed! m_WindowHidden.MessageSend AdapterConnectorIndex:%d\n"
+      },
+      {
+        "address": "0x14040f6a0",
+        "references": [
+          {
+            "from": "0x140098e5e",
+            "function": "sub_140098d00"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::Initialize failed! m_PnpNotifyDeviceInterfaceDisplayAdapter.Subscribe\n"
+      },
+      {
+        "address": "0x14040f870",
+        "references": [
+          {
+            "from": "0x14009c7bb",
+            "function": "sub_14009c100"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::OnPnpNotification failed! m_PnpDeviceChildDisplay.Create %s\n"
+      },
+      {
+        "address": "0x14040f910",
+        "references": [
+          {
+            "from": "0x14009cc33",
+            "function": "sub_14009ca20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPlug failed! PnpUtilDeviceEnumerate\n"
+      },
+      {
+        "address": "0x14040f990",
+        "references": [
+          {
+            "from": "0x14009cc62",
+            "function": "sub_14009ca20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPlug failed! m_PnpDeviceChildDisplay.Create\n"
+      },
+      {
+        "address": "0x14040fa20",
+        "references": [
+          {
+            "from": "0x14009cb7f",
+            "function": "sub_14009ca20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPlug failed!\n"
+      },
+      {
+        "address": "0x14040fa80",
+        "references": [
+          {
+            "from": "0x1400976ed",
+            "function": "sub_140097538"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayUnplug failed! WaitForSingleObject %d\n"
+      },
+      {
+        "address": "0x14040fb10",
+        "references": [
+          {
+            "from": "0x140097671",
+            "function": "sub_140097538"
+          },
+          {
+            "from": "0x140097fb8",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayClose failed! ChildDisplayPersist_\n"
+      },
+      {
+        "address": "0x14040fb90",
+        "references": [
+          {
+            "from": "0x140097631",
+            "function": "sub_140097538"
+          },
+          {
+            "from": "0x140097f7a",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPersist_ failed! Software device does not support persistence\n"
+      },
+      {
+        "address": "0x14040fc50",
+        "references": [
+          {
+            "from": "0x140097660",
+            "function": "sub_140097538"
+          },
+          {
+            "from": "0x140097fa7",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPersist_ failed! m_BusParentSpacedesk.PdoPersistedSave\n"
+      },
+      {
+        "address": "0x140414930",
+        "references": [
+          {
+            "from": "0x1400994ce",
+            "function": "sub_140099480"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceControlIddCx::IoctlDisplayRenderAdapterSet\n"
+      },
+      {
+        "address": "0x1404149a0",
+        "references": [
+          {
+            "from": "0x140099534",
+            "function": "sub_1400994df"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceControlIddCx::IoctlDisplayRenderAdapterSet DeviceIoControl failed! GetLastErrorReturned: %d\n"
+      },
+      {
+        "address": "0x14041c800",
+        "references": [
+          {
+            "from": "0x1400a63bb",
+            "function": "sub_1400a5c31"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALInputUtil::CoordinatesValidate failed! DisplayResolution %d;%d\n"
+      },
+      {
+        "address": "0x14041cab0",
+        "references": [
+          {
+            "from": "0x1400a5d4d",
+            "function": "sub_1400a5cc9"
+          }
+        ],
+        "section": ".rdata",
+        "text": "DISPLAY %d x %d  DESKTOP %d;%d;%d;%d | Source:%d;%d;%d;%d | Target:%d;%d;%d;%d  CLIENT %d x %d\n"
+      },
+      {
+        "address": "0x14041fc70",
+        "references": [
+          {
+            "from": "0x1400adf2a",
+            "function": "sub_1400addc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::Start failed! Invalid GUID_NULL for DisplayAdapterInstanceId\n"
+      },
+      {
+        "address": "0x14041fff0",
+        "references": [
+          {
+            "from": "0x1400ae501",
+            "function": "sub_1400ae440"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::DisplayCoordinatesUpdate failed!\n"
+      },
+      {
+        "address": "0x1404200a0",
+        "references": [
+          {
+            "from": "0x1400ae659",
+            "function": "sub_1400ae640"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::SettingsDisplayPersistSet failed! pApi->SettingsPersistenceSet\n"
+      },
+      {
+        "address": "0x1404205b0",
+        "references": [
+          {
+            "from": "0x1400af314",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run DeviceApiLifetime.PlugMissingDisplayAdapter failed! %s\n"
+      },
+      {
+        "address": "0x1404208c0",
+        "references": [
+          {
+            "from": "0x1400af55b",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run SE_MAIN_EVT_COMM_SERVICE_IDENTIFIED_DISPLAY %s %s\n"
+      },
+      {
+        "address": "0x140420970",
+        "references": [
+          {
+            "from": "0x1400afc0c",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run failed! ComSvcManager.DisplayInsert or Feature unsupported %s\n"
+      },
+      {
+        "address": "0x140420a30",
+        "references": [
+          {
+            "from": "0x1400af86d",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run DeviceApiLifetime.PlugMissingDisplayMonitor failed! %s\n"
+      },
+      {
+        "address": "0x140420ae0",
+        "references": [
+          {
+            "from": "0x1400afd3e",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run SE_MAIN_EVT_COMM_SERVICE_DISCONNECTED_DISPLAY %s %s\n"
+      },
+      {
+        "address": "0x140420b90",
+        "references": [
+          {
+            "from": "0x1400afdd2",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run ComSvcManager.DisplayRemove failed! %s %s\n"
+      },
+      {
+        "address": "0x140420ef0",
+        "references": [
+          {
+            "from": "0x1400b06d9",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run SE_MAIN_CMD_DISPLAY_COORDINATES_UPDATE\n"
+      },
+      {
+        "address": "0x140420f80",
+        "references": [
+          {
+            "from": "0x1400b09ea",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadMainEventHandler::Run SE_MAIN_EVT_DISPLAY_VISIBILITY_CHANGED %d %s\n"
+      }
+    ],
+    "total": 181
+  },
+  "summary": "181 strings match \"display\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 50,
+    "total": 181,
+    "next_offset": 50
+  },
+  "locations": [],
+  "links": []
+}

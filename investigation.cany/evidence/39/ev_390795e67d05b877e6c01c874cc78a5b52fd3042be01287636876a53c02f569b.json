@@ -1,0 +1,45 @@
+{
+  "id": "ev_390795e67d05b877e6c01c874cc78a5b52fd3042be01287636876a53c02f569b",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x1402b91a0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x1402b91a0",
+    "function": "entry",
+    "pseudo_code": "\r\nvoid entry(void)\r\n\r\n{\r\n  FUN_1402b99f0();\r\n  FUN_1402b9020();\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void entry(void);"
+  },
+  "summary": "Pseudo-C for entry from the Deep engine (9 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1402b91a0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

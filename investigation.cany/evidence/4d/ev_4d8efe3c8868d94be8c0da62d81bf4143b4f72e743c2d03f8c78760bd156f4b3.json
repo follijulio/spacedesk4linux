@@ -1,0 +1,77 @@
+{
+  "id": "ev_4d8efe3c8868d94be8c0da62d81bf4143b4f72e743c2d03f8c78760bd156f4b3",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 50,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "tablet"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x14042a3e0",
+        "references": [
+          {
+            "from": "0x1400c3aaf",
+            "function": "sub_1400c39e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadFrameProcessorAudioRender::Run failed! CreateWaitableTimer %d\n"
+      },
+      {
+        "address": "0x14044ca00",
+        "references": [
+          {
+            "from": "0x1400efaa8",
+            "function": "sub_1400ef910"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L5TimerPeriodic::L5TimerPeriodic failed! CreateWaitableTimer %d\n"
+      },
+      {
+        "address": "0x14047faea",
+        "references": [],
+        "section": ".rdata",
+        "text": "CreateWaitableTimerW"
+      },
+      {
+        "address": "0x14047fb02",
+        "references": [],
+        "section": ".rdata",
+        "text": "SetWaitableTimer"
+      }
+    ],
+    "total": 4
+  },
+  "summary": "4 strings match \"tablet\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [],
+  "links": []
+}

@@ -1,0 +1,1246 @@
+{
+  "id": "ev_c0fd15759f17a3713b89ad02fa758550a2593e2f53fd7221428a572de2f924f4",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 100,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "spacedesk"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x1403ff078",
+        "references": [
+          {
+            "from": "0x14008b0fe",
+            "function": "sub_14008b0a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommL5GenericBind"
+      },
+      {
+        "address": "0x1403ff098",
+        "references": [
+          {
+            "from": "0x14008b137",
+            "function": "sub_14008b0a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommL5GenericDll"
+      },
+      {
+        "address": "0x1403ff0d0",
+        "references": [
+          {
+            "from": "0x14008b17c",
+            "function": "sub_14008b0a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommL5NgsBindNetTcp"
+      },
+      {
+        "address": "0x1403ff0f0",
+        "references": [
+          {
+            "from": "0x14008b1b5",
+            "function": "sub_14008b0a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommLayer5Dll"
+      },
+      {
+        "address": "0x1403ff120",
+        "references": [
+          {
+            "from": "0x14008b5a2",
+            "function": "sub_14008b560"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\datronicsoft\\spacedesk\\Server\\CommunicationLayer"
+      },
+      {
+        "address": "0x1403ff458",
+        "references": [
+          {
+            "from": "0x14008bc83",
+            "function": "sub_14008b560"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommLayer5DllHostIp"
+      },
+      {
+        "address": "0x1403ff4a0",
+        "references": [
+          {
+            "from": "0x14008bc8a",
+            "function": "sub_14008b560"
+          },
+          {
+            "from": "0x14008cca2",
+            "function": "sub_14008ca50"
+          },
+          {
+            "from": "0x14009072b",
+            "function": "sub_1400906e0"
+          },
+          {
+            "from": "0x140092eff",
+            "function": "sub_140092ed0"
+          },
+          {
+            "from": "0x1400930df",
+            "function": "sub_1400930b0"
+          },
+          {
+            "from": "0x14009593a",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x140095958",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x140095976",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x140095994",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x1400959ac",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x1400959cc",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x1400959ec",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x140095a0c",
+            "function": "sub_140095910"
+          },
+          {
+            "from": "0x140096ce9",
+            "function": "sub_140096cc0"
+          },
+          {
+            "from": "0x1400db473",
+            "function": "sub_1400db430"
+          },
+          {
+            "from": "0x1400ddb58",
+            "function": "sub_1400ddb30"
+          },
+          {
+            "from": "0x1400f0422",
+            "function": "sub_1400f02d0"
+          },
+          {
+            "from": "0x1400f049c",
+            "function": "sub_1400f02d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SYSTEM\\CurrentControlSet\\Services\\spacedeskService"
+      },
+      {
+        "address": "0x1403ffd40",
+        "references": [
+          {
+            "from": "0x14008cc62",
+            "function": "sub_14008ca50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\\spacedesk_server.cer"
+      },
+      {
+        "address": "0x1403ffd58",
+        "references": [
+          {
+            "from": "0x14008cc77",
+            "function": "sub_14008ca50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\\spacedesk_server.pfx"
+      },
+      {
+        "address": "0x1403fffc0",
+        "references": [
+          {
+            "from": "0x14008d057",
+            "function": "sub_14008d010"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SPACEDESK-NET-CLIENT"
+      },
+      {
+        "address": "0x140400148",
+        "references": [
+          {
+            "from": "0x14008fd71",
+            "function": "sub_14008fd00"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskBranding.dll"
+      },
+      {
+        "address": "0x140404ab0",
+        "references": [
+          {
+            "from": "0x140090e7b",
+            "function": "sub_140090c20"
+          },
+          {
+            "from": "0x140096e03",
+            "function": "sub_140096e03"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskService"
+      },
+      {
+        "address": "0x140404c00",
+        "references": [
+          {
+            "from": "0x140093449",
+            "function": "sub_1400933c0"
+          },
+          {
+            "from": "0x140094f9f",
+            "function": "sub_140094f80"
+          },
+          {
+            "from": "0x140094fdb",
+            "function": "sub_140094f80"
+          },
+          {
+            "from": "0x1400d5394",
+            "function": "sub_1400d5390"
+          },
+          {
+            "from": "0x1400d53fb",
+            "function": "sub_1400d5390"
+          },
+          {
+            "from": "0x1400d547b",
+            "function": "sub_1400d5390"
+          },
+          {
+            "from": "0x1400d5a00",
+            "function": "sub_1400d59c0"
+          },
+          {
+            "from": "0x1400d5a4b",
+            "function": "sub_1400d59c0"
+          },
+          {
+            "from": "0x1400d5a90",
+            "function": "sub_1400d59c0"
+          },
+          {
+            "from": "0x1400d5ae9",
+            "function": "sub_1400d59c0"
+          },
+          {
+            "from": "0x1400d5d54",
+            "function": "sub_1400d5d30"
+          },
+          {
+            "from": "0x1400d8af4",
+            "function": "sub_1400d8af0"
+          },
+          {
+            "from": "0x1400d8c20",
+            "function": "sub_1400d8be0"
+          },
+          {
+            "from": "0x1400d947d",
+            "function": "sub_1400d9440"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\datronicsoft\\spacedesk"
+      },
+      {
+        "address": "0x140404f58",
+        "references": [
+          {
+            "from": "0x140091033",
+            "function": "sub_140090c20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedesk Graphics Adapter"
+      },
+      {
+        "address": "0x140405bd0",
+        "references": [
+          {
+            "from": "0x14008b5e4",
+            "function": "sub_14008b560"
+          },
+          {
+            "from": "0x14008b901",
+            "function": "sub_14008b560"
+          },
+          {
+            "from": "0x14008cb08",
+            "function": "sub_14008ca50"
+          },
+          {
+            "from": "0x140092f9f",
+            "function": "sub_140092f70"
+          },
+          {
+            "from": "0x14009303f",
+            "function": "sub_140093010"
+          },
+          {
+            "from": "0x1400d5433",
+            "function": "sub_1400d5390"
+          },
+          {
+            "from": "0x1400d5494",
+            "function": "sub_1400d5390"
+          },
+          {
+            "from": "0x1400d5504",
+            "function": "sub_1400d54c0"
+          },
+          {
+            "from": "0x1400d55c3",
+            "function": "sub_1400d5580"
+          },
+          {
+            "from": "0x1400d5674",
+            "function": "sub_1400d5630"
+          },
+          {
+            "from": "0x1400d570a",
+            "function": "sub_1400d56e0"
+          },
+          {
+            "from": "0x1400d57a4",
+            "function": "sub_1400d5760"
+          },
+          {
+            "from": "0x1400d583a",
+            "function": "sub_1400d5810"
+          },
+          {
+            "from": "0x1400d58d4",
+            "function": "sub_1400d5890"
+          },
+          {
+            "from": "0x1400d596a",
+            "function": "sub_1400d5940"
+          },
+          {
+            "from": "0x1400d5b35",
+            "function": "sub_1400d59c0"
+          },
+          {
+            "from": "0x1400d5b9e",
+            "function": "sub_1400d59c0"
+          },
+          {
+            "from": "0x1400d5bf5",
+            "function": "sub_1400d59c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\datronicsoft\\spacedesk\\Service"
+      },
+      {
+        "address": "0x1404074f0",
+        "references": [
+          {
+            "from": "0x140093a47",
+            "function": "sub_140093860"
+          },
+          {
+            "from": "0x140094ad3",
+            "function": "sub_140094a90"
+          },
+          {
+            "from": "0x140094b2f",
+            "function": "sub_140094a90"
+          },
+          {
+            "from": "0x140094b47",
+            "function": "sub_140094a90"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\\\\.\\pipe\\spacedeskServiceTrayPipe"
+      },
+      {
+        "address": "0x140407540",
+        "references": [
+          {
+            "from": "0x140096802",
+            "function": "sub_140096510"
+          }
+        ],
+        "section": ".rdata",
+        "text": "This is spacedesk Service calling."
+      },
+      {
+        "address": "0x140407588",
+        "references": [
+          {
+            "from": "0x14009662b",
+            "function": "sub_140096510"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\\spacedeskServiceTray.exe"
+      },
+      {
+        "address": "0x14040c8d0",
+        "references": [
+          {
+            "from": "0x140099175",
+            "function": "sub_140099161"
+          }
+        ],
+        "section": ".rdata",
+        "text": "System\\CurrentControlSet\\Services\\spacedeskHookKmode"
+      },
+      {
+        "address": "0x14040c940",
+        "references": [
+          {
+            "from": "0x14009917e",
+            "function": "sub_140099161"
+          },
+          {
+            "from": "0x1400da894",
+            "function": "sub_1400da850"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\WUDF\\Services\\spacedeskDisplayUmode"
+      },
+      {
+        "address": "0x14040d2e8",
+        "references": [
+          {
+            "from": "0x140099f83",
+            "function": "sub_140099ea0"
+          },
+          {
+            "from": "0x14009a191",
+            "function": "sub_14009a0b0"
+          },
+          {
+            "from": "0x1400aed5b",
+            "function": "sub_1400aec10"
+          },
+          {
+            "from": "0x1400b7109",
+            "function": "sub_1400b7020"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedesk virtual Bus"
+      },
+      {
+        "address": "0x14040d9c0",
+        "references": [
+          {
+            "from": "0x14009a9fb",
+            "function": "sub_14009a6c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALApiHighLevel2::DeviceStreamingPlug failed! m_pBusControl->IoctlSpacedeskBusCustomerSpecificDataSet\n"
+      },
+      {
+        "address": "0x14040eb70",
+        "references": [
+          {
+            "from": "0x14009b545",
+            "function": "sub_14009b4a9"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALApiHighLevel2::DeviceAuxiliaryParameterSet failed! m_pBusControl->IoctlSpacedeskBusAuxiliaryParameterSet\n"
+      },
+      {
+        "address": "0x14040ed80",
+        "references": [
+          {
+            "from": "0x14009b696",
+            "function": "sub_14009b5f9"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALApiHighLevel2::DeviceAuxiliaryParameterGet failed! m_pBusControl->IoctlSpacedeskBusAuxiliaryParameterGet\n"
+      },
+      {
+        "address": "0x14040f3a8",
+        "references": [
+          {
+            "from": "0x14009be6b",
+            "function": "sub_14009be20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedesk - SDK API Window"
+      },
+      {
+        "address": "0x14040f610",
+        "references": [],
+        "section": ".rdata",
+        "text": "ALBus1Manager::Initialize failed! m_BusParentSpacedesk.Initialize\n"
+      },
+      {
+        "address": "0x14040fc50",
+        "references": [
+          {
+            "from": "0x140097660",
+            "function": "sub_140097538"
+          },
+          {
+            "from": "0x140097fa7",
+            "function": "sub_140097be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus1Manager::ChildDisplayPersist_ failed! m_BusParentSpacedesk.PdoPersistedSave\n"
+      },
+      {
+        "address": "0x14040fea0",
+        "references": [
+          {
+            "from": "0x14009d419",
+            "function": "sub_14009d180"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT&PID_SPACEDESK_VIRTUAL_AUDIO_RENDER"
+      },
+      {
+        "address": "0x14040ff60",
+        "references": [
+          {
+            "from": "0x14009d4ab",
+            "function": "sub_14009d180"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT&PID_SPACEDESK_VIRTUAL_AUDIO_CAPTURE"
+      },
+      {
+        "address": "0x140410020",
+        "references": [
+          {
+            "from": "0x14009d53d",
+            "function": "sub_14009d180"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT&PID_SPACEDESK_VIRTUAL_AUDIO_COMBINED_RENDER_CAPTURE"
+      },
+      {
+        "address": "0x140410100",
+        "references": [
+          {
+            "from": "0x14009d5d6",
+            "function": "sub_14009d180"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT&PID_SPACEDESK_VIRTUAL_VIDEO_CAPTURE"
+      },
+      {
+        "address": "0x140410300",
+        "references": [
+          {
+            "from": "0x1400ac49f",
+            "function": "sub_1400ac400"
+          },
+          {
+            "from": "0x1400ac5de",
+            "function": "sub_1400ac540"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAVDataAudioCyclicBufferMap DeviceIoControl failed! Error:%d DeviceType:%d StreamType:%d\n"
+      },
+      {
+        "address": "0x140410400",
+        "references": [
+          {
+            "from": "0x1400abfe7",
+            "function": "sub_1400abf60"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAVDataAudioCyclicBufferEventSubscribe DeviceIoControl failed! Error:%d DeviceType:%d StreamType:%d\n"
+      },
+      {
+        "address": "0x140410510",
+        "references": [
+          {
+            "from": "0x1400ac0b7",
+            "function": "sub_1400ac030"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAVDataAudioCyclicBufferEventUnsubscribe DeviceIoControl failed! Error:%d DeviceType:%d StreamType:%d\n"
+      },
+      {
+        "address": "0x140410620",
+        "references": [
+          {
+            "from": "0x1400ac1a1",
+            "function": "sub_1400ac100"
+          },
+          {
+            "from": "0x1400ac241",
+            "function": "sub_1400ac100"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAVDataAudioBufferUpdateIndicate DeviceIoControl failed! Error:%d DeviceType:%d StreamType:%d\n"
+      },
+      {
+        "address": "0x140410720",
+        "references": [
+          {
+            "from": "0x14009d99a",
+            "function": "sub_14009d7f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAudioFormatsSet failed! Error:%d DeviceType:%d StreamType:%d\n"
+      },
+      {
+        "address": "0x1404107e0",
+        "references": [
+          {
+            "from": "0x1400ab8c1",
+            "function": "sub_1400ab800"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAudioFrameBufferGet failed! %d\n"
+      },
+      {
+        "address": "0x140410860",
+        "references": [
+          {
+            "from": "0x1400ab9ec",
+            "function": "sub_1400ab930"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAudioFrameDeliver failed! %d\n"
+      },
+      {
+        "address": "0x1404108e0",
+        "references": [
+          {
+            "from": "0x1400ab894",
+            "function": "sub_1400ab800"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusVideoFrameBufferGet failed! %d\n"
+      },
+      {
+        "address": "0x140410960",
+        "references": [
+          {
+            "from": "0x1400ab9bf",
+            "function": "sub_1400ab930"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusVideoFrameDeliver failed! %d\n"
+      },
+      {
+        "address": "0x1404109e0",
+        "references": [
+          {
+            "from": "0x14009bac4",
+            "function": "sub_14009b933"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusVideoFormatsSet failed! %d\n"
+      },
+      {
+        "address": "0x140410a60",
+        "references": [
+          {
+            "from": "0x14009b531",
+            "function": "sub_14009b4a9"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAuxiliaryParameterSet DeviceIoControl failed! Error:%d DeviceType:%d\n"
+      },
+      {
+        "address": "0x140410b30",
+        "references": [
+          {
+            "from": "0x14009b682",
+            "function": "sub_14009b5f9"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAuxiliaryParameterGet DeviceIoControl failed! Error:%d DeviceType:%d\n"
+      },
+      {
+        "address": "0x140410c00",
+        "references": [
+          {
+            "from": "0x14009a9e2",
+            "function": "sub_14009a6c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusCustomerSpecificDataSet failed! %d\n"
+      },
+      {
+        "address": "0x140410c90",
+        "references": [
+          {
+            "from": "0x14009b832",
+            "function": "sub_14009b7a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAVTestPdoAutoCreateGet failed! %d\n"
+      },
+      {
+        "address": "0x140410d20",
+        "references": [
+          {
+            "from": "0x14009b76f",
+            "function": "sub_14009b6e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBus2Manager::IoctlSpacedeskBusAVTestPdoAutoCreateSet failed! %d\n"
+      },
+      {
+        "address": "0x1404163c0",
+        "references": [
+          {
+            "from": "0x1400a4496",
+            "function": "sub_1400a4410"
+          },
+          {
+            "from": "0x1400a45dc",
+            "function": "sub_1400a4410"
+          },
+          {
+            "from": "0x1400aed62",
+            "function": "sub_1400aec10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Root\\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_BUS_0001"
+      },
+      {
+        "address": "0x140416430",
+        "references": [
+          {
+            "from": "0x1400a45ad",
+            "function": "sub_1400a4410"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::Initialize failed! m_PnpNotifyDeviceInterfaceBus.Subscribe\n"
+      },
+      {
+        "address": "0x1404164e0",
+        "references": [
+          {
+            "from": "0x1400a463f",
+            "function": "sub_1400a4410"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::Initialize failed! PnpUtilDeviceEnumerate\n"
+      },
+      {
+        "address": "0x140416570",
+        "references": [
+          {
+            "from": "0x1400a468a",
+            "function": "sub_1400a4410"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::Initialize failed! m_PnpDeviceBus.Create %s\n"
+      },
+      {
+        "address": "0x140416600",
+        "references": [
+          {
+            "from": "0x14009c5c7",
+            "function": "sub_14009c100"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::OnPnpNotification m_PnpDeviceBus.Create failed! %s\n"
+      },
+      {
+        "address": "0x1404166a0",
+        "references": [
+          {
+            "from": "0x1400a4810",
+            "function": "sub_1400a46d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::PdoPlug failed! m_DeviceControlBusDriver.IoctlBusPdoPlug1\n"
+      },
+      {
+        "address": "0x140416750",
+        "references": [
+          {
+            "from": "0x1400a49c8",
+            "function": "sub_1400a4840"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::PdoUnplug failed! m_DeviceControlBusDriver.IoctlBusPdoUnplug\n"
+      },
+      {
+        "address": "0x140416800",
+        "references": [
+          {
+            "from": "0x1400a4b98",
+            "function": "sub_1400a4a10"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::PdoPersistedSave failed! m_DeviceControlBusDriver.IoctlBusPdoPersistedSave\n"
+      },
+      {
+        "address": "0x1404168d0",
+        "references": [
+          {
+            "from": "0x1400a4d68",
+            "function": "sub_1400a4be0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::PdoPersistedOpen failed! m_DeviceControlBusDriver.IoctlBusPdoPersistedOpen\n"
+      },
+      {
+        "address": "0x1404169a0",
+        "references": [
+          {
+            "from": "0x14009a00b",
+            "function": "sub_140099ea0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::SettingsPersistenceSet failed! m_DeviceControlBusDriver.IoctlSettingsPersistSet\n"
+      },
+      {
+        "address": "0x140416a70",
+        "references": [
+          {
+            "from": "0x1400a4e21",
+            "function": "sub_1400a4db0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALBusParentSpacedesk::SettingsPersistenceGet failed! m_DeviceControlBusDriver.IoctlSettingsPersistGet\n"
+      },
+      {
+        "address": "0x140417fb0",
+        "references": [
+          {
+            "from": "0x1400a722d",
+            "function": "sub_1400a6fe0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusDevicePlugin failed! Invalid DeviceType:%d\n"
+      },
+      {
+        "address": "0x140418050",
+        "references": [
+          {
+            "from": "0x1400a70a0",
+            "function": "sub_1400a7032"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusDevicePlugin DeviceType: %d DeviceId:{%08lX-%04hX-%04hX-%02hhX%02hhX-%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX}\n"
+      },
+      {
+        "address": "0x140418170",
+        "references": [
+          {
+            "from": "0x1400a7220",
+            "function": "sub_1400a7032"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusDevicePlugin failed! %d\n"
+      },
+      {
+        "address": "0x1404181e0",
+        "references": [
+          {
+            "from": "0x14009d6ab",
+            "function": "sub_14009d620"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusDeviceUnplug DeviceType: %d DeviceId:{%08lX-%04hX-%04hX-%02hhX%02hhX-%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX}\n"
+      },
+      {
+        "address": "0x140418300",
+        "references": [
+          {
+            "from": "0x14009d7a4",
+            "function": "sub_14009d620"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusDeviceUnplug failed! %d\n"
+      },
+      {
+        "address": "0x140418370",
+        "references": [
+          {
+            "from": "0x1400ab54b",
+            "function": "sub_1400ab4b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusMessageEventSubscribe DeviceIoControl failed! GetLastErrorReturned: %d\n"
+      },
+      {
+        "address": "0x140418440",
+        "references": [
+          {
+            "from": "0x1400ab762",
+            "function": "sub_1400ab6e6"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusMessageEventUnsubscribe DeviceIoControl failed! GetLastErrorReturned: %d\n"
+      },
+      {
+        "address": "0x140418510",
+        "references": [
+          {
+            "from": "0x1400ab604",
+            "function": "sub_1400ab55b"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusMessageDriverRetrieve DeviceIoControl failed! GetLastErrorReturned: %d\n"
+      },
+      {
+        "address": "0x1404185e0",
+        "references": [
+          {
+            "from": "0x1400ab693",
+            "function": "sub_1400ab55b"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALDeviceBus::IoctlSpacedeskBusMessageDriverConfirm DeviceIoControl failed! GetLastErrorReturned: %d\n"
+      },
+      {
+        "address": "0x14041df60",
+        "references": [
+          {
+            "from": "0x1400ac4b0",
+            "function": "sub_1400ac400"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ALStreamFrameAccessorAudioCyclic::PrivateFrameBufferMap failed! m_pBusControl->IoctlSpacedeskBusAVDataAudioCyclicBufferMap\n"
+      },
+      {
+        "address": "0x14041fb80",
+        "references": [
+          {
+            "from": "0x1400ade71",
+            "function": "sub_1400addc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "| datronicsoft spacedesk Server Library\n"
+      },
+      {
+        "address": "0x140423880",
+        "references": [
+          {
+            "from": "0x1400b70cc",
+            "function": "sub_1400b7020"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_DISPLAY_0003"
+      },
+      {
+        "address": "0x140423940",
+        "references": [
+          {
+            "from": "0x1400b70d3",
+            "function": "sub_1400b7020"
+          }
+        ],
+        "section": ".rdata",
+        "text": "VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_DISPLAY_0003"
+      },
+      {
+        "address": "0x140427f10",
+        "references": [
+          {
+            "from": "0x1400bf251",
+            "function": "sub_1400bf230"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT_PID_SPACEDESK_DRIVER_HID_0001"
+      },
+      {
+        "address": "0x140428620",
+        "references": [
+          {
+            "from": "0x1400bf751",
+            "function": "sub_1400bf730"
+          }
+        ],
+        "section": ".rdata",
+        "text": "{0511CEC1-0EB4-4ADE-9284-CD36606C3906}\\VID_DATRONICSOFT&PID_SPACEDESK_VIRTUAL_MOUSE_0001"
+      },
+      {
+        "address": "0x14042dc40",
+        "references": [
+          {
+            "from": "0x1400c879f",
+            "function": "sub_1400c8760"
+          },
+          {
+            "from": "0x1400c87b6",
+            "function": "sub_1400c8760"
+          },
+          {
+            "from": "0x1400c886c",
+            "function": "sub_1400c8760"
+          },
+          {
+            "from": "0x1400d53b3",
+            "function": "sub_1400d5390"
+          },
+          {
+            "from": "0x1400d5414",
+            "function": "sub_1400d5390"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\datronicsoft\\spacedesk\\Server"
+      },
+      {
+        "address": "0x140431778",
+        "references": [
+          {
+            "from": "0x1400ccf2c",
+            "function": "sub_1400cccf0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "_spacedesk_Diagnostics_Frames"
+      },
+      {
+        "address": "0x14043b630",
+        "references": [
+          {
+            "from": "0x1400dc8b3",
+            "function": "sub_1400dc810"
+          }
+        ],
+        "section": ".rdata",
+        "text": "D:\\spacedesk\\spacedeskServer\\trunk\\LibCommLayer4NetTcp\\L4OpenSSLContext.cpp"
+      },
+      {
+        "address": "0x140440fd0",
+        "references": [
+          {
+            "from": "0x1400e2ce8",
+            "function": "sub_1400e2c80"
+          },
+          {
+            "from": "0x140404998",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>ClientVersionString</key>\n\t<string>usbmuxd</string>\n\t<key>MessageType</key>\n\t<string>ListDevices</string>\n\t<key>ProgName</key>\n\t<string>spacedeskService.exe</string>\n\t<key>kLibUSBMuxVersion</key>\n\t<integer>3</integer>\n\t</dict>\n</plist>\n"
+      },
+      {
+        "address": "0x140441170",
+        "references": [
+          {
+            "from": "0x1400e2a31",
+            "function": "sub_1400e29e0"
+          },
+          {
+            "from": "0x1404049a0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>ClientVersionString</key>\n\t<string>usbmuxd</string>\n\t<key>MessageType</key>\n\t<string>Listen</string>\n\t<key>ProgName</key>\n\t<string>spacedeskService.exe</string>\n\t<key>kLibUSBMuxVersion</key>\n\t<integer>3</integer>\n\t</dict>\n</plist>\n"
+      },
+      {
+        "address": "0x140441dc0",
+        "references": [
+          {
+            "from": "0x1400e4314",
+            "function": "sub_1400e42be"
+          },
+          {
+            "from": "0x1404049a8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>ClientVersionString</key>\n\t<string>usbmuxd</string>\n\t<key>MessageType</key>\n\t<string>Connect</string>\n\t<key>ProgName</key>\n\t<string>spacedeskService.exe</string>\n\t<key>kLibUSBMuxVersion</key>\n\t<integer>3</integer>\n\t<key>DeviceID</key>\n\t<integer>%s</integer>\n\t<key>PortNumber</key>\n\t<integer>%s</integer>\n</dict>\n</plist>\n"
+      },
+      {
+        "address": "0x1404424b0",
+        "references": [
+          {
+            "from": "0x140324b91",
+            "function": "sub_140324b84"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedeskCommLayer4EnumeratorUsbGet failed! Exception\n"
+      },
+      {
+        "address": "0x140443038",
+        "references": [
+          {
+            "from": "0x1400e7d08",
+            "function": "sub_1400e7c72"
+          },
+          {
+            "from": "0x1400e7dd4",
+            "function": "sub_1400e7c72"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedesk Android USB Device"
+      },
+      {
+        "address": "0x140443080",
+        "references": [
+          {
+            "from": "0x1400e6110",
+            "function": "sub_1400e5e50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "L4DriverManager::DeviceUsbAoapUpdateDriverToSpacedesk failed! DeviceInfoSet.DeviceDriverUpdateFromDriverStore\n"
+      },
+      {
+        "address": "0x140443810",
+        "references": [
+          {
+            "from": "0x1400e9d77",
+            "function": "sub_1400e9c70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "spacedesk - L4 USB Android Window"
+      },
+      {
+        "address": "0x140449430",
+        "references": [
+          {
+            "from": "0x1400ec5d9",
+            "function": "sub_1400ec4d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "   PROTOCOL_SPACEDESK_FRAMEBUFFER_FLOW_CONTROL_ACK %lld %s %s\n"
+      },
+      {
+        "address": "0x140449520",
+        "references": [
+          {
+            "from": "0x1400ec617",
+            "function": "sub_1400ec4d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "   PROTOCOL_SPACEDESK_ROTATION %lld %s %s\n"
+      },
+      {
+        "address": "0x1404549bc",
+        "references": [],
+        "section": ".rdata",
+        "text": "D:\\spacedesk\\spacedeskServer\\trunk\\x64\\Release\\spacedeskService.pdb"
+      },
+      {
+        "address": "0x140489de0",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVALBusParentSpacedesk@@"
+      }
+    ],
+    "total": 86
+  },
+  "summary": "86 strings match \"spacedesk\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 86,
+    "total": 86
+  },
+  "locations": [],
+  "links": []
+}

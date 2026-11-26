@@ -1,0 +1,45 @@
+{
+  "id": "ev_f0a5634939a6e9ab4eaf01b797301e314f465a938f68c90e327bca06df8757c9",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x1400addc0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x1400addc0",
+    "function": "FUN_1400addc0",
+    "pseudo_code": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nundefined8\r\nFUN_1400addc0(longlong param_1,longlong param_2,longlong param_3,longlong param_4,\r\n             undefined4 *param_5,undefined8 param_6,undefined1 param_7)\r\n\r\n{\r\n  undefined4 uVar1;\r\n  undefined4 uVar2;\r\n  undefined4 uVar3;\r\n  char cVar4;\r\n  int iVar5;\r\n  undefined8 uVar6;\r\n  wchar_t *pwVar7;\r\n  undefined8 ****ppppuVar8;\r\n  undefined1 auStack_b8 [32];\r\n  uint local_98;\r\n  uint local_90;\r\n  uint local_88;\r\n  uint local_80;\r\n  undefined8 ***local_78;\r\n  undefined8 uStack_70;\r\n  undefined8 local_68;\r\n  ulonglong local_60;\r\n  undefined8 ***local_58;\r\n  undefined8 local_50;\r\n  ushort local_48;\r\n  ushort local_46;\r\n  ushort local_44;\r\n  ulonglong local_40;\r\n  \r\n  local_40 = DAT_140488040 ^ (ulonglong)auStack_b8;\r\n  if (DAT_14048f5cc != 0) {\r\n    GetLocalTime((LPSYSTEMTIME)&local_50);\r\n    FUN_1400adc30(0xffffffff,L\"      _       _                   _                     ______\\n\");\r\n    FUN_1400adc30(0xffffffff,L\"   __| | __ _| |_ _ __ ___  _ __ (_) ___    _________  / __/ /_\\n\");\r\n    FUN_1400adc30(0xffffffff,\r\n                  L\"  / _` |/ _` | __| \\'__/ _ \\\\| \\'_ \\\\| |/ __|  / ___/ __ \\\\/ /_/ __/\\n\");\r\n    FUN_1400adc30(0xffffffff,L\" | (_| | (_| | |_| | | (_) | | | | | (__  (__  ) /_/ / __/ /_ \\n\");\r\n    FUN_1400adc30(0xffffffff,\r\n                  L\"  \\\\__,_|\\\\__,_|\\\\__|_|  \\\\___/|_| |_|_|\\\\___|/____/\\\\____/_/  \\\\__/\\n\");\r\n    FUN_1400adc30(0xffffffff,L\" ----------------------------------------------------------------\\n\")\r\n    ;\r\n    FUN_1400adc30(0xffffffff,L\"| datronicsoft spacedesk Server Library\\n\");\r\n    FUN_1400adc30(0xffffffff,L\"| Build: %S %S\\n\",\"Sep 28 2026\",\"16:47:41\");\r\n    local_80 = (uint)local_44;\r\n    local_88 = (uint)local_46;\r\n    local_90 = (uint)local_48;\r\n    local_98 = (uint)(ushort)local_50;\r\n    FUN_1400adc30(0xffffffff,L\"| Call:  %.02d.%.02d. %d  %.02d:%.02d:%.02d\\n\",local_50._2_2_,\r\n                  local_50._6_2_);\r\n    FUN_1400adc30(0xffffffff,L\" ----------------------------------------------------------------\\n\")\r\n    ;\r\n  }\r\n  if ((param_2 == 0) || (param_3 == 0)) {\r\n    pwVar7 = L\"SEServer::Start failed! Invalid Iv3DDKApi/Iv3DDKApi2 parameter\\n\";\r\n  }\r\n  else {\r\n    iVar5 = memcmp(&DAT_140410e50,param_5,0x10);\r\n    if (iVar5 == 0) {\r\n      pwVar7 = L\"SEServer::Start failed! Invalid GUID_NULL for DisplayAdapterInstanceId\\n\";\r\n    }\r\n    else if (param_4 == 0) {\r\n      pwVar7 = L\"SEServer::Start failed! nullptr == pEvents\\n\";\r\n    }\r\n    else {\r\n      local_58 = &local_78;\r\n      local_78 = (undefined8 ****)0x0;\r\n      uStack_70 = 0;\r\n      local_68 = 0;\r\n      local_60 = 0;\r\n      uVar6 = FUN_1402d6690(param_6);\r\n      FUN_140090570(&local_78,param_6,uVar6);\r\n      local_50 = &local_78;\r\n      *(longlong *)(param_1 + 0x140) = param_4;\r\n      *(longlong *)(param_1 + 0xf8) = param_2;\r\n      *(longlong *)(param_1 + 0x100) = param_3;\r\n      uVar1 = param_5[1];\r\n      uVar2 = param_5[2];\r\n      uVar3 = param_5[3];\r\n      *(undefined4 *)(param_1 + 0x108) = *param_5;\r\n      *(undefined4 *)(param_1 + 0x10c) = uVar1;\r\n      *(undefined4 *)(param_1 + 0x110) = uVar2;\r\n      *(undefined4 *)(param_1 + 0x114) = uVar3;\r\n      if ((undefined8 ****)(param_1 + 0x118) != &local_78) {\r\n        ppppuVar8 = &local_78;\r\n        if (7 < local_60) {\r\n          ppppuVar8 = (undefined8 ****)local_78;\r\n        }\r\n        FUN_1400903e0((undefined8 ****)(param_1 + 0x118),ppppuVar8,local_68);\r\n      }\r\n      *(undefined1 *)(param_1 + 0x138) = param_7;\r\n      *(undefined1 *)(param_1 + 0x48) = 0;\r\n      EnterCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x50));\r\n      LOCK();\r\n      *(undefined1 *)(param_1 + 0x90) = 0;\r\n      UNLOCK();\r\n      if (*(longlong *)(param_1 + 0x78) != *(longlong *)(param_1 + 0x80)) {\r\n        *(longlong *)(param_1 + 0x80) = *(longlong *)(param_1 + 0x78);\r\n      }\r\n      LeaveCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x50));\r\n      if (*(HANDLE *)(param_1 + 0x98) == (HANDLE)0x0) {\r\n        FUN_1400d4d80(1,L\"PLSEventManualReset::Reset m_hEvent is NULL.\\n\");\r\n      }\r\n      else {\r\n        ResetEvent(*(HANDLE *)(param_1 + 0x98));\r\n      }\r\n      cVar4 = FUN_1400d4ef0(param_1 + 8);\r\n      FUN_14008eb30(&local_78);\r\n      if (cVar4 != '\\0') {\r\n        return 1;\r\n      }\r\n      pwVar7 = L\"SEServer::Start m_ThreadMainEventHandler.Start failed!\";\r\n    }\r\n  }\r\n  FUN_1400adc30(1,pwVar7);\r\n  return 0;\r\n}\r\n\r\n",
+    "signature": "undefined8 FUN_1400addc0(longlong param_1,longlong param_2,longlong param_3,longlong param_4,undefined4 *param_5,undefined8 param_6,undefined1 param_7);"
+  },
+  "summary": "Pseudo-C for FUN_1400addc0 from the Deep engine (120 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1400addc0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

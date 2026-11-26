@@ -1,0 +1,170 @@
+{
+  "id": "ev_a45cc22e524cea26ffa5915f219fd4de0ae4d536fa0140be357984719194f551",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "SEServer"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x14041fbf0",
+        "references": [
+          {
+            "from": "0x1400ae066",
+            "function": "sub_1400addc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::Start failed! Invalid Iv3DDKApi/Iv3DDKApi2 parameter\n"
+      },
+      {
+        "address": "0x14041fc70",
+        "references": [
+          {
+            "from": "0x1400adf2a",
+            "function": "sub_1400addc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::Start failed! Invalid GUID_NULL for DisplayAdapterInstanceId\n"
+      },
+      {
+        "address": "0x14041fd00",
+        "references": [
+          {
+            "from": "0x1400adf3b",
+            "function": "sub_1400addc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::Start failed! nullptr == pEvents\n"
+      },
+      {
+        "address": "0x14041fd60",
+        "references": [
+          {
+            "from": "0x1400ae059",
+            "function": "sub_1400addc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::Start m_ThreadMainEventHandler.Start failed!"
+      },
+      {
+        "address": "0x14041ff30",
+        "references": [
+          {
+            "from": "0x1400ae30c",
+            "function": "sub_1400ae1b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::RaiseEvtPowerSuspended Event.Wait failed!\n"
+      },
+      {
+        "address": "0x14041ffa0",
+        "references": [
+          {
+            "from": "0x1400ae40b",
+            "function": "sub_1400ae3a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::RaiseEvtPowerResumed failed!\n"
+      },
+      {
+        "address": "0x14041fff0",
+        "references": [
+          {
+            "from": "0x1400ae501",
+            "function": "sub_1400ae440"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::DisplayCoordinatesUpdate failed!\n"
+      },
+      {
+        "address": "0x140420050",
+        "references": [
+          {
+            "from": "0x1400ae59b",
+            "function": "sub_1400ae530"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::SettingsClear failed!\n"
+      },
+      {
+        "address": "0x1404200a0",
+        "references": [
+          {
+            "from": "0x1400ae659",
+            "function": "sub_1400ae640"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::SettingsDisplayPersistSet failed! pApi->SettingsPersistenceSet\n"
+      },
+      {
+        "address": "0x140420140",
+        "references": [
+          {
+            "from": "0x1400ae713",
+            "function": "sub_1400ae6a0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::SettingsClear failed! %s\n"
+      },
+      {
+        "address": "0x140420190",
+        "references": [
+          {
+            "from": "0x1400ae85b",
+            "function": "sub_1400ae7f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEServer::TrayAppStarted failed!\n"
+      },
+      {
+        "address": "0x14048a140",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVSEServer@@"
+      }
+    ],
+    "total": 12
+  },
+  "summary": "12 strings match \"SEServer\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 12,
+    "total": 12
+  },
+  "locations": [],
+  "links": []
+}

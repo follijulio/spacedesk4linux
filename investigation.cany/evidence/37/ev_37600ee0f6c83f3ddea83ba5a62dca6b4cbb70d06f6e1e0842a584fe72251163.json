@@ -1,0 +1,255 @@
+{
+  "id": "ev_37600ee0f6c83f3ddea83ba5a62dca6b4cbb70d06f6e1e0842a584fe72251163",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 100,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "Quality"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x14033f750",
+        "references": [
+          {
+            "from": "0x140331548",
+            "function": null
+          },
+          {
+            "from": "0x140331550",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "qualityLabelledData"
+      },
+      {
+        "address": "0x14033f9f8",
+        "references": [
+          {
+            "from": "0x140331b38",
+            "function": null
+          },
+          {
+            "from": "0x140331b40",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "dSAQuality"
+      },
+      {
+        "address": "0x14033fa08",
+        "references": [
+          {
+            "from": "0x140331b60",
+            "function": null
+          },
+          {
+            "from": "0x140331b68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "singleLevelQuality"
+      },
+      {
+        "address": "0x14033fa20",
+        "references": [
+          {
+            "from": "0x140331b88",
+            "function": null
+          },
+          {
+            "from": "0x140331b90",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "subtreeMinimumQuality"
+      },
+      {
+        "address": "0x14033fa38",
+        "references": [
+          {
+            "from": "0x140331bb0",
+            "function": null
+          },
+          {
+            "from": "0x140331bb8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "subtreeMaximumQuality"
+      },
+      {
+        "address": "0x1403e1e80",
+        "references": [],
+        "section": ".rdata",
+        "text": "TJPARAM_QUALITY is not applicable to decompression instances."
+      },
+      {
+        "address": "0x1403e2448",
+        "references": [
+          {
+            "from": "0x1402eaa9f",
+            "function": "sub_1402ea980"
+          }
+        ],
+        "section": ".rdata",
+        "text": "TJPARAM_QUALITY must be specified"
+      },
+      {
+        "address": "0x140426b10",
+        "references": [
+          {
+            "from": "0x1400bb534",
+            "function": "sub_1400bb130"
+          },
+          {
+            "from": "0x1400bc594",
+            "function": "sub_1400bc290"
+          },
+          {
+            "from": "0x1400c5217",
+            "function": "sub_1400c4fd0"
+          },
+          {
+            "from": "0x1400c6ec7",
+            "function": "sub_1400c6820"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%s DISPLAY:%s\n                 Width:%d Height:%d OffsetX:%d OffsetY:%d Rotation:%d\n                 Quality:%d Subsampling:%d EncodingType:%d FragmentCount:%d UpdateRects:%d\n                 Brightness:%d Contrast:%d MirrorFlip:%d\n"
+      },
+      {
+        "address": "0x140428d30",
+        "references": [
+          {
+            "from": "0x1400b511c",
+            "function": "sub_1400b4fb0"
+          },
+          {
+            "from": "0x1400bdab6",
+            "function": "sub_1400bd910"
+          },
+          {
+            "from": "0x1400be251",
+            "function": "sub_1400be1f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadFrameProcessorDisplay::TriggerFrameHighQuality failed! Invalid pipeline\n"
+      },
+      {
+        "address": "0x1404292a0",
+        "references": [
+          {
+            "from": "0x1400c0d1a",
+            "function": "sub_1400bfee0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SEThreadFrameProcessorDisplay::Run IMAGE HIGH QUALITY ENCODE\n"
+      },
+      {
+        "address": "0x140431160",
+        "references": [
+          {
+            "from": "0x1400c9d7e",
+            "function": "sub_1400c9d00"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SLIEncMftH264::QualitySet failed! m_pTransform->MediaTypeSet\n"
+      },
+      {
+        "address": "0x140435230",
+        "references": [
+          {
+            "from": "0x1400d360b",
+            "function": "sub_1400d35e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SLIMftTransformBase::QualitySet failed! eAVEncCommonRateControlMode_Quality\n"
+      },
+      {
+        "address": "0x1404352d0",
+        "references": [
+          {
+            "from": "0x1400d3638",
+            "function": "sub_1400d35e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SLIMftTransformBase::QualitySet failed! CODECAPI_AVEncCommonQuality\n"
+      },
+      {
+        "address": "0x140435360",
+        "references": [
+          {
+            "from": "0x1400d3667",
+            "function": "sub_1400d35e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "SLIMftTransformBase::QualitySet failed! CODECAPI_AVEncCommonQualityVsSpeed\n"
+      },
+      {
+        "address": "0x1404391c8",
+        "references": [
+          {
+            "from": "0x1400d6d59",
+            "function": "sub_1400d6cd0"
+          },
+          {
+            "from": "0x1400d6df7",
+            "function": "sub_1400d6cd0"
+          },
+          {
+            "from": "0x1400d6efa",
+            "function": "sub_1400d6e60"
+          },
+          {
+            "from": "0x1400d79ef",
+            "function": "sub_1400d77b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "CompressionQuality"
+      }
+    ],
+    "total": 15
+  },
+  "summary": "15 strings match \"Quality\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 15,
+    "total": 15
+  },
+  "locations": [],
+  "links": []
+}

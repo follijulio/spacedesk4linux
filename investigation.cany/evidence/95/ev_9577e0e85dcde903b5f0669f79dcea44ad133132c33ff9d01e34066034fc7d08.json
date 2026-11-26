@@ -1,0 +1,45 @@
+{
+  "id": "ev_9577e0e85dcde903b5f0669f79dcea44ad133132c33ff9d01e34066034fc7d08",
+  "subject": {
+    "kind": "pe",
+    "sha256": "73866d2f6f27fccc668d6862f5ac1e4fb976baffec01975ff9e97ac316f6dda1",
+    "name": "spacedeskService.exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x14009b930"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x14009b912",
+    "function": "FUN_14009b890",
+    "pseudo_code": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nundefined1 FUN_14009b890(longlong param_1,longlong *param_2,char param_3)\r\n\r\n{\r\n  undefined8 *puVar1;\r\n  undefined4 *puVar2;\r\n  longlong lVar3;\r\n  undefined4 uVar4;\r\n  undefined4 uVar5;\r\n  undefined8 uVar6;\r\n  undefined8 uVar7;\r\n  longlong lVar8;\r\n  int iVar9;\r\n  char cVar10;\r\n  undefined4 uVar11;\r\n  BOOL BVar12;\r\n  undefined8 *puVar13;\r\n  undefined8 *lpInBuffer;\r\n  undefined4 *puVar14;\r\n  uint uVar15;\r\n  ulonglong uVar16;\r\n  longlong lVar17;\r\n  DWORD DVar18;\r\n  undefined1 uVar19;\r\n  undefined1 auStackY_d8 [32];\r\n  undefined4 local_98;\r\n  undefined4 uStack_94;\r\n  undefined4 uStack_90;\r\n  undefined4 uStack_8c;\r\n  undefined1 local_88 [16];\r\n  undefined1 local_78 [16];\r\n  longlong local_68;\r\n  int local_60 [2];\r\n  ulonglong local_58;\r\n  \r\n  local_58 = DAT_140488040 ^ (ulonglong)auStackY_d8;\r\n  uVar16 = 0;\r\n  local_68 = 0;\r\n  local_60[0] = 0;\r\n  cVar10 = (**(code **)(*param_2 + 0x40))(param_2,&local_68,local_60);\r\n  iVar9 = local_60[0];\r\n  lVar8 = local_68;\r\n  if (cVar10 == '\\0') {\r\n    FUN_1400a1e70(1,\r\n                  L\"ALApiHighLevel2::DeviceStreamingCaptureFormatsSet_ failed! pDevice->FormatsCaptureGet\\n\"\r\n                 );\r\n    uVar19 = 0;\r\n  }\r\n  else if (local_60[0] == 0) {\r\n    uVar19 = 1;\r\n  }\r\n  else {\r\n    lVar3 = *(longlong *)(param_1 + 0x10);\r\n    if (param_3 == '\\0') {\r\n      uVar11 = (**(code **)(*param_2 + 0x18))(param_2);\r\n      puVar14 = (undefined4 *)(**(code **)(*param_2 + 8))(param_2,local_78);\r\n      local_98 = *puVar14;\r\n      uStack_94 = puVar14[1];\r\n      uStack_90 = puVar14[2];\r\n      uStack_8c = puVar14[3];\r\n      uVar19 = FUN_14009d7f0(lVar3,&local_98,uVar11,0);\r\n    }\r\n    else {\r\n      uVar11 = (**(code **)(*param_2 + 0x18))();\r\n      puVar13 = (undefined8 *)(**(code **)(*param_2 + 8))(param_2,local_88);\r\n      uVar6 = *puVar13;\r\n      uVar7 = puVar13[1];\r\n      DVar18 = iVar9 * 0xc4 + 0x20;\r\n      lVar17 = (longlong)(int)DVar18;\r\n      lpInBuffer = (undefined8 *)thunk_FUN_1402b8be0(lVar17);\r\n      puVar13 = lpInBuffer;\r\n      if (DVar18 != 0) {\r\n        do {\r\n          *(undefined1 *)puVar13 = 0;\r\n          puVar13 = (undefined8 *)((longlong)puVar13 + 1);\r\n          lVar17 = lVar17 + -1;\r\n        } while (lVar17 != 0);\r\n      }\r\n      *(undefined4 *)(lpInBuffer + 2) = uVar11;\r\n      *(int *)((longlong)lpInBuffer + 0x1c) = iVar9;\r\n      *lpInBuffer = uVar6;\r\n      lpInBuffer[1] = uVar7;\r\n      if (0 < iVar9) {\r\n        do {\r\n          uVar15 = (int)uVar16 + 1;\r\n          lVar17 = uVar16 * 0xc4;\r\n          uVar6 = ((undefined8 *)(lVar17 + lVar8))[1];\r\n          puVar13 = (undefined8 *)(lVar17 + 0x20 + (longlong)lpInBuffer);\r\n          *puVar13 = *(undefined8 *)(lVar17 + lVar8);\r\n          puVar13[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x10 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x30 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x20 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x40 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x30 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x50 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x40 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x60 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x50 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x70 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x60 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x80 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x70 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0x90 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x80 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0xa0 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar13 = (undefined8 *)(lVar17 + 0x90 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0xb0 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          puVar14 = (undefined4 *)(lVar17 + 0xa0 + lVar8);\r\n          uVar11 = puVar14[1];\r\n          uVar4 = puVar14[2];\r\n          uVar5 = puVar14[3];\r\n          puVar2 = (undefined4 *)(lVar17 + 0xc0 + (longlong)lpInBuffer);\r\n          *puVar2 = *puVar14;\r\n          puVar2[1] = uVar11;\r\n          puVar2[2] = uVar4;\r\n          puVar2[3] = uVar5;\r\n          puVar13 = (undefined8 *)(lVar17 + 0xb0 + lVar8);\r\n          uVar6 = puVar13[1];\r\n          puVar1 = (undefined8 *)(lVar17 + 0xd0 + (longlong)lpInBuffer);\r\n          *puVar1 = *puVar13;\r\n          puVar1[1] = uVar6;\r\n          *(undefined4 *)(lVar17 + 0xe0 + (longlong)lpInBuffer) =\r\n               *(undefined4 *)(lVar17 + 0xc0 + lVar8);\r\n          uVar16 = (ulonglong)uVar15;\r\n        } while ((int)uVar15 < iVar9);\r\n      }\r\n      local_60[1] = 0;\r\n      BVar12 = DeviceIoControl(*(HANDLE *)(*(longlong *)(lVar3 + 0x1b0) + 8),0x224088,lpInBuffer,\r\n                               DVar18,(LPVOID)0x0,0,(LPDWORD)(local_60 + 1),(LPOVERLAPPED)0x0);\r\n      if (BVar12 == 0) {\r\n        DVar18 = GetLastError();\r\n        FUN_1400a1e70(1,L\"ALBus2Manager::IoctlSpacedeskBusVideoFormatsSet failed! %d\\n\",DVar18);\r\n      }\r\n      thunk_FUN_1402b9860(lpInBuffer);\r\n      uVar19 = BVar12 != 0;\r\n    }\r\n  }\r\n  return uVar19;\r\n}\r\n\r\n",
+    "signature": "undefined1 FUN_14009b890(longlong param_1,longlong *param_2,char param_3);"
+  },
+  "summary": "Pseudo-C for FUN_14009b890 from the Deep engine (170 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x14009b912"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}
